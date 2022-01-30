@@ -7,6 +7,6 @@ from urls import routes, fronts
 
 application = Framework(routes, fronts)
 
-with make_server('', 8080, application) as httpd:
+with make_server('', 8000, application) as httpd:
     write_log("Starting the server on the port 8080...")
     httpd.serve_forever()
