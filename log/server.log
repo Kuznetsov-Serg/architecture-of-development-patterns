@@ -1,0 +1,32 @@
+2022-01-25 Нам пришёл post-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Запуск на порту 8080...
+2022-01-25 GET-запрос: {}
+2022-01-25 GET-запрос: {}
+2022-01-25 GET-запрос: {}
+2022-01-25 POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Запуск на порту 8080...
+2022-01-25 /index/ GET-запрос: {}
+2022-01-25 /about/ GET-запрос: {}
+2022-01-25 /contact/ GET-запрос: {}
+2022-01-25 /contact/ POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Starting the server on the port 8080...
+2022-01-25 /index/ GET-запрос: {}
+2022-01-25 /about/ GET-запрос: {}
+2022-01-25 /contact/ GET-запрос: {}
+2022-01-25 /contact/ POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Starting the server on the port 8080...
+2022-01-25 /contact/ POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Starting the server on the port 8080...
+2022-01-25 /index/ GET-запрос: {}
+2022-01-25 /contact/ GET-запрос: {}
+2022-01-25 /contact/ POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Starting the server on the port 8080...
+2022-01-25 /index/ GET-запрос: {}
+2022-01-25 /about/ GET-запрос: {}
+2022-01-25 /contact/ GET-запрос: {}
+2022-01-25 /contact/ POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-25 Starting the server on the port 8080...
+2022-01-25 /index/ GET-запрос: {}
+2022-01-25 /about/ GET-запрос: {}
+2022-01-25 /contact/ GET-запрос: {}
+2022-01-25 /contact/ POST-запрос: {'your_name': 'Сергей Кузнецов', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': 'Привет!!!', 'contact_submitted': 'submit'}
