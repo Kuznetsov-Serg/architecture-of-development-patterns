@@ -2,7 +2,7 @@ import sys
 from quopri import decodestring
 
 sys.path.append('../')
-from framework.logging import write_log
+from framework.logger import write_log
 from framework.requests import GetRequests, PostRequests
 
 
