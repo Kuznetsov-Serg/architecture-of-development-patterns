@@ -1650,3 +1650,24 @@
 2022-02-02 21:35:03,916 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
 2022-02-02 21:35:05,378 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '3'}
 2022-02-02 21:35:08,218 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:39:39,786 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:39:54,469 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:39:56,265 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:39:56,282 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:46:58,126 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:47:07,011 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:47:09,854 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:47:09,889 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:47:09,927 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:47:11,445 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 21:47:12,772 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 21:47:14,375 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-02 21:47:15,376 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '6'}
+2022-02-02 21:47:17,737 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:47:18,772 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 21:47:20,242 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 21:47:21,570 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '7', 'student_id': '2'}
+2022-02-02 21:47:25,019 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:47:27,471 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 21:47:28,377 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 21:47:29,786 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '2'}

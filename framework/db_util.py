@@ -67,10 +67,10 @@ def fill_db(connection):
     if not is_have_records(connection, 'course'):
         category_records = get_records(connection, 'category')
         course = [
-                    (1, 'Перспектива программирования', category_records[0][0]),
-                    (2, 'Программируем на ...', category_records[0][0]),
-                    (3, 'Приложения для ...', category_records[0][0]),
-                    (4, 'WEB для всех', category_records[1][0]),
+                    (1, 'Перспектива программирования', category_records[0]['id']),
+                    (2, 'Программируем на ...', category_records[0]['id']),
+                    (3, 'Приложения для ...', category_records[0]['id']),
+                    (4, 'WEB для всех', category_records[1]['id']),
         ]
         cursor.executemany("INSERT INTO course VALUES (?, ?, ?)", course)
 
@@ -97,7 +97,7 @@ def is_have_records(connection, table_name):
     sql = f'SELECT COUNT(*) FROM {table_name}'
     result = cursor.execute(sql)
     records = result.fetchall()
-    if len(records):
+    if records[0][0]:
         logger.debug(f'Table {table_name} has a records')
         return True
     else:
