@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}
+night_sky - main
+{% endblock %}
+
+{% block style %}
+{% include "style_css.html" %}
+{% endblock %}
+
+{% block menu %}
+{% include "inc-menu.html" %}
+{% endblock %}
+
+{% block body %}
+<div>
+    <div id="site_content">
+        {% include "inc-sidebar.html" %}
+        <div id="content">
+            <div>
+                <a href="/">назад на список Студентов</a>
+            </div>
+            <br>
+            <br>
+            <div>
+                <h1>Список курсов для студента "{{name}}"</h1>
+                {% if objects_list|length %}
+                <table>
+                    <tr class="head">
+                        <th>Наименование</th>
+                    </tr>
+                    {% for item in objects_list %}
+                    <tr>
+                        <td>{{item.name}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+                {% else %}
+                    пока пуст
+                {% endif %}
+            </div>
+            <div>
+                <br>
+                <a href="/course-select/?id={{id}}">Добавить курс</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include "inc-footer.html" %}
+{% endblock %}

@@ -1,12 +1,13 @@
 from wsgiref.simple_server import make_server
 
-from framework.logger import write_log
+from framework.logger import Logger
 from framework.main import Framework
 from urls import routes, fronts
 
 
+logger = Logger('server', is_debug_console=True)
 application = Framework(routes, fronts)
 
 with make_server('', 8080, application) as httpd:
-    write_log("Starting the server on the port 8080...")
+    logger.debug("Starting the server on the port 8080...")
     httpd.serve_forever()

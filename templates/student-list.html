@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}
+night_sky - main
+{% endblock %}
+
+{% block style %}
+{% include "style_css.html" %}
+{% endblock %}
+
+{% block menu %}
+{% include "inc-menu.html" %}
+{% endblock %}
+
+{% block body %}
+<div>
+    <div id="site_content">
+        {% include "inc-sidebar.html" %}
+        <div id="content">
+            <div>
+                <a href="/">назад на главную</a>
+            </div>
+            <br>
+            <br>
+            <h1>Список студентов</h1>
+            {% if objects_list|length %}
+                <table>
+                    <tr class="head">
+                        <th>ФИО</th>
+                        <th>Количество курсов</th>
+                        <th></th>
+                    </tr>
+                    {% for item in objects_list %}
+                    <tr>
+                        <td>{{item.name}}</td>
+                        <td>{{item.course_count()}}</td>
+                        <td><a href="/student-course-list/?id={{item.id}}">Список курсов</a></td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            {% else %}
+                пока пуст
+            {% endif %}
+            <div>
+                <br>
+                <li><a href="/student-create/">Создать студента</a></li>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include "inc-footer.html" %}
+{% endblock %}

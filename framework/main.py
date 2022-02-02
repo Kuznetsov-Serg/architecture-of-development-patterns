@@ -2,8 +2,11 @@ import sys
 from quopri import decodestring
 
 sys.path.append('../')
-from framework.logger import write_log
+from framework.logger import Logger
 from framework.requests import GetRequests, PostRequests
+
+
+logger = Logger('server', is_debug_console=True)
 
 
 class PageNotFound404:
@@ -17,6 +20,7 @@ class Framework:
     def __init__(self, routes_obj, fronts_obj):
         self.routes_lst = routes_obj
         self.fronts_lst = fronts_obj
+
 
     def __call__(self, environ, start_response):
         # the address to which the transition was made
@@ -34,11 +38,11 @@ class Framework:
         if method == 'POST':
             data = PostRequests().get_request_params(environ)
             request['data'] = Framework.decode_dict(data)
-            write_log(f'{path} POST-запрос: {Framework.decode_dict(data)}')
+            logger.debug(f'{path} POST-request: {Framework.decode_dict(data)}')
         if method == 'GET':
             request_params = GetRequests().get_request_params(environ)
             request['request_params'] = Framework.decode_dict(request_params)
-            write_log(f'{path} GET-запрос: {Framework.decode_dict(request_params)}')
+            logger.debug(f'{path} GET-request: {Framework.decode_dict(request_params)}')
 
         # let's add a request through all Front_Controllers
         for front in self.fronts_lst:

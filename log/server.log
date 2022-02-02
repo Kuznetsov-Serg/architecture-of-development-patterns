@@ -366,3 +366,1287 @@
 2022-01-30 /logo.jpg/ GET-запрос: {}
 2022-01-30 /index/ GET-запрос: {}
 2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 Starting the server on the port 8080...
+2022-01-30 Starting the server on the port 8080...
+2022-01-30 / GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /favicon.ico/ GET-запрос: {}
+2022-01-30 /api/ GET-запрос: {}
+2022-01-30 / GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /index/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ POST-запрос: {'your_name': 'Кузнецов Сергей', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': '', 'contact_submitted': 'submit'}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 / GET-запрос: {}
+2022-01-30 /favicon.ico/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /index/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /index/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /index/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 Starting the server on the port 8080...
+2022-01-30 Starting the server on the port 8080...
+2022-01-30 / GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /favicon.ico/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /index/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /contact/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /about/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-01-30 /index/ GET-запрос: {}
+2022-01-30 /logo.jpg/ GET-запрос: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 / GET-запрос: {}
+2022-02-02 /logo.jpg/ GET-запрос: {}
+2022-02-02 /index/ GET-запрос: {}
+2022-02-02 /logo.jpg/ GET-запрос: {}
+2022-02-02 /about/ GET-запрос: {}
+2022-02-02 /logo.jpg/ GET-запрос: {}
+2022-02-02 /contact/ GET-запрос: {}
+2022-02-02 /logo.jpg/ GET-запрос: {}
+2022-02-02 /index/ GET-запрос: {}
+2022-02-02 /logo.jpg/ GET-запрос: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 10:19:28,337 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 10:19:28,389 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 10:19:30,369 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 10:19:30,387 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 10:19:33,087 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 10:19:33,098 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 10:19:33,124 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 10:19:35,235 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 10:19:35,247 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 10:19:35,266 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 10:19:42,945 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 10:19:42,961 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 10:28:13,016 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 10:28:13,033 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 10:28:19,912 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 13:09:25,583 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 13:09:28,683 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:09:28,683 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 13:18:28,165 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:18:28,165 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:19:30,187 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:19:30,242 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 13:19:32,895 DEBUG    kuznetsov main.py /courses-list/ GET-request: {}
+2022-02-02 13:20:02,722 DEBUG    kuznetsov main.py /courses-list/ GET-request: {}
+2022-02-02 13:20:04,335 DEBUG    kuznetsov main.py /courses-list/ GET-request: {}
+2022-02-02 13:20:08,056 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:20:08,092 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 13:20:09,655 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:20:09,655 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:22:58,452 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:22:58,452 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:22:58,491 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:23:02,886 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:23:02,886 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:23:15,817 DEBUG    kuznetsov main.py /course-create/ GET-request: {}
+2022-02-02 13:23:22,771 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:23:22,771 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:23:22,809 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:23:56,931 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:23:56,931 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:23:56,974 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:26:08,262 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:26:08,262 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:26:08,313 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:26:15,674 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:26:15,674 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:26:15,711 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:26:44,089 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:26:44,090 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:26:44,123 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:26:46,698 DEBUG    kuznetsov main.py /courses-create/ GET-request: {}
+2022-02-02 13:28:45,798 DEBUG    kuznetsov main.py /courses-create/ GET-request: {}
+2022-02-02 13:28:48,775 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:28:48,775 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:28:48,816 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:28:50,046 DEBUG    kuznetsov main.py /courses-create/ GET-request: {}
+2022-02-02 13:30:58,660 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:30:58,660 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:30:58,708 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:31:00,742 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 13:31:00,779 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:31:16,860 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Новая категория'}
+2022-02-02 13:31:16,901 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:31:21,111 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:31:21,112 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:31:28,102 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:31:28,103 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:31:28,179 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:31:32,295 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:31:32,295 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:31:42,062 DEBUG    kuznetsov main.py /course-create/ GET-request: {}
+2022-02-02 13:32:08,009 DEBUG    kuznetsov main.py /course-create/ GET-request: {}
+2022-02-02 13:38:18,791 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 13:38:18,833 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:38:29,508 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 2'}
+2022-02-02 13:38:29,551 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:38:32,487 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:38:32,487 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:38:32,528 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:38:38,691 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:38:38,691 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:38:43,858 DEBUG    kuznetsov main.py /course-create/ GET-request: {}
+2022-02-02 13:39:35,050 DEBUG    kuznetsov main.py /category-list/index/ GET-request: {}
+2022-02-02 13:40:07,098 DEBUG    kuznetsov main.py /category-list/index/ GET-request: {}
+2022-02-02 13:40:17,098 DEBUG    kuznetsov main.py /category-list/about/ GET-request: {}
+2022-02-02 13:41:53,315 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:41:53,321 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:41:53,359 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:41:54,617 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:41:54,667 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 13:41:55,730 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:41:55,765 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 13:41:56,686 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 13:41:56,725 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 13:41:57,564 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 13:41:57,609 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 13:41:58,731 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:41:58,769 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 13:41:59,980 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 13:42:00,017 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 13:42:03,510 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:42:03,510 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:42:03,522 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:42:03,522 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:42:03,542 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:42:08,099 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:42:08,109 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:42:08,129 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 13:42:10,609 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:42:10,610 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:42:10,627 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:42:27,494 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:42:27,511 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 13:42:36,280 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 13:42:36,291 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 13:42:36,318 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 13:42:39,047 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 13:42:39,084 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 13:42:42,010 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 13:42:42,026 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 13:42:45,500 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:42:45,501 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:42:45,513 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 13:42:45,532 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:42:58,402 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:42:58,402 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 13:50:13,964 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:50:13,964 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:50:13,999 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:50:14,000 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:50:14,030 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:50:18,038 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 13:50:18,088 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:50:26,161 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 13:50:26,216 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:50:31,124 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:50:31,124 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:50:31,153 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:50:31,153 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:50:31,182 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:50:33,753 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 13:50:33,782 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:50:38,972 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 2'}
+2022-02-02 13:50:39,017 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 13:50:41,650 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:50:41,650 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:50:41,679 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:50:49,311 DEBUG    kuznetsov main.py /course-create/ GET-request: {}
+2022-02-02 13:51:44,921 DEBUG    kuznetsov main.py /course-create/ GET-request: {}
+2022-02-02 13:52:24,370 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:52:24,371 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:53:21,290 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:53:21,290 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:53:45,331 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:53:45,332 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:53:45,386 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:53:48,885 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 13:54:19,413 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:57:59,510 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:57:59,511 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:57:59,564 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:58:02,430 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': ''}
+2022-02-02 13:58:36,953 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:58:41,763 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:58:41,763 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:58:41,817 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:58:44,262 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': ''}
+2022-02-02 13:59:25,418 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 13:59:30,401 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 13:59:30,402 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 13:59:30,456 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 13:59:33,761 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '0'}
+2022-02-02 14:00:24,027 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 14:00:24,077 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 14:00:35,644 DEBUG    kuznetsov main.py /create-course/ GET-request: {'id': '0'}
+2022-02-02 14:02:10,280 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '0'}
+2022-02-02 14:02:10,280 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 14:02:10,333 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 14:02:16,676 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:02:16,676 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:02:16,701 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:02:16,702 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:02:16,731 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:03:09,575 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '0'}
+2022-02-02 14:03:33,782 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 14:04:02,643 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1 для 1-й'}
+2022-02-02 14:04:06,615 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 14:04:18,273 DEBUG    kuznetsov main.py /copy-course/ GET-request: {'name': 'Курс 1 для 1-й'}
+2022-02-02 14:10:47,184 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:10:47,184 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:10:47,210 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:10:47,210 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:10:47,246 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:12:14,184 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:12:14,185 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:12:14,238 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:30:36,355 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '0'}
+2022-02-02 14:30:36,356 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 14:30:36,432 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 14:30:47,213 DEBUG    kuznetsov main.py /copy-course/ GET-request: {'name': 'Курс 1 для 1-й'}
+2022-02-02 14:32:41,083 DEBUG    kuznetsov main.py /copy-course/ GET-request: {'name': 'Курс 1 для 1-й'}
+2022-02-02 14:32:45,814 DEBUG    kuznetsov main.py /copy-course/ GET-request: {'name': 'Курс 1 для 1-й'}
+2022-02-02 14:33:29,538 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '0'}
+2022-02-02 14:33:29,544 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 14:33:29,607 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 14:33:31,352 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'name': 'Курс 1 для 1-й'}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 14:53:41,688 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '0'}
+2022-02-02 14:53:41,688 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 14:53:45,669 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:53:47,748 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:53:47,749 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:53:47,821 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:54:55,588 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:54:55,594 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:54:55,654 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:54:58,660 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:54:58,660 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:54:58,717 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:55:14,864 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:55:14,865 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:55:14,921 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:58:37,261 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:58:37,261 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:58:37,329 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:58:41,080 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:58:41,081 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:58:41,136 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:58:43,789 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:58:43,790 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:58:43,820 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:59:19,289 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:59:19,289 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:59:19,316 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:59:19,316 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:59:19,356 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:59:21,760 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:59:21,761 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:59:21,824 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:59:31,385 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:59:31,385 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:59:31,440 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 14:59:33,673 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 14:59:33,674 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 14:59:33,732 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:00:18,176 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:00:18,176 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:00:18,233 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:00:58,436 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:00:58,437 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:00:58,494 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:01:20,698 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:01:20,698 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:01:20,766 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:01:27,587 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:01:27,642 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:01:36,578 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:01:36,639 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:01:40,801 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:01:40,802 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:01:40,831 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:01:40,831 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:01:40,880 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:01:53,119 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:01:53,119 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:01:53,182 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:02:29,705 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:02:29,705 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:02:29,779 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:03:55,213 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:03:55,213 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:03:55,273 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:04:04,397 DEBUG    kuznetsov main.py /create-course/ GET-request: {'id': '1'}
+2022-02-02 15:04:32,678 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:04:32,678 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:04:32,737 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:04:34,088 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:04:34,139 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:04:45,385 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1 для 1'}
+2022-02-02 15:04:45,446 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:04:52,904 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:06:40,996 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:06:40,996 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:06:41,023 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:06:41,024 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:06:41,061 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:06:43,402 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:06:43,403 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:06:43,472 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:06:46,246 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:08:05,955 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 15:08:06,035 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 15:08:07,665 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:08:07,666 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:08:07,703 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:08:09,376 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:08:09,406 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:08:18,131 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:08:18,181 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:08:22,496 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:08:22,496 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:08:22,524 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:08:22,524 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:08:22,568 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:08:24,115 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:08:24,116 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:08:24,151 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:08:25,830 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:08:25,883 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:08:31,732 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1'}
+2022-02-02 15:08:31,794 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:08:34,494 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:09:05,525 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:13:13,689 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:13:13,759 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:13:28,690 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:13:28,751 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:13:42,710 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:13:42,711 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:13:42,746 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:13:46,449 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:13:46,449 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:13:46,511 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:13:50,289 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:13:50,353 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:13:58,358 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:13:58,397 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:14:01,874 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:14:01,901 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:14:01,938 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:14:27,061 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:14:32,575 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:14:32,576 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:14:32,622 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:14:32,623 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:14:32,664 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:14:38,586 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:14:38,616 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:14:50,976 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:14:51,045 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:14:56,092 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:14:56,093 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:14:56,133 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:14:56,133 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:14:56,177 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:14:59,469 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:14:59,530 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:15:06,374 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1 '}
+2022-02-02 15:15:06,440 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:15:08,455 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:15:08,490 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:15:17,590 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:15:17,617 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:15:17,654 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:15:21,641 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:15:21,669 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:15:21,705 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:15:27,307 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:15:27,364 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:16:30,669 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:16:30,705 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:16:30,745 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:21:56,893 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:22:01,683 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:22:01,683 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:22:01,729 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:22:01,729 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:22:01,771 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:22:03,712 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:22:03,747 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:22:13,319 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:22:13,393 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:23:37,449 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:23:37,449 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:23:37,486 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:23:37,486 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:23:37,525 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:23:39,695 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:23:39,725 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:23:55,650 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'категория 1'}
+2022-02-02 15:23:55,715 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:24:00,546 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:24:00,597 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:24:05,204 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1'}
+2022-02-02 15:24:10,503 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:24:13,880 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:24:27,542 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:24:31,368 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
+2022-02-02 15:24:33,516 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:24:41,442 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:24:41,443 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:24:41,479 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:24:48,237 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:24:48,237 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:24:48,265 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:24:48,266 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:24:48,306 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:24:58,226 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:24:58,254 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:25:04,549 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 2'}
+2022-02-02 15:25:07,400 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:25:13,366 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:25:13,367 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:25:13,392 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:25:13,392 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:25:13,431 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:25:54,775 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:25:54,776 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:25:54,811 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:25:59,283 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:26:41,883 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:27:17,827 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 15:29:12,126 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:29:22,024 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:29:22,025 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:29:22,064 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:31:49,960 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:31:49,960 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:31:49,986 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:31:49,987 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:31:50,025 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:31:54,141 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:31:54,141 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:31:54,170 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:31:54,170 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:31:54,207 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:31:56,795 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 15:31:56,795 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:32:01,755 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:32:01,755 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:32:01,790 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:32:05,587 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:32:05,587 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:32:05,621 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:38:19,270 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:38:19,270 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:38:19,321 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:38:20,947 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:38:20,979 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:38:28,461 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:38:28,510 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:38:30,903 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:38:30,904 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:38:30,940 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:38:32,449 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:38:32,503 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:38:37,007 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1'}
+2022-02-02 15:39:03,793 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:39:09,084 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:39:39,769 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:39:39,769 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:39:39,807 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:39:39,808 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:39:39,847 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:39:43,167 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:39:43,196 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:39:43,224 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:39:48,876 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:39:48,937 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:39:51,029 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:39:51,029 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:39:51,061 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:39:54,418 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:39:54,443 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:39:54,473 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:39:59,121 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1'}
+2022-02-02 15:40:19,281 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:40:23,029 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:42:29,844 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:42:41,428 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:42:41,432 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:42:41,457 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:42:41,458 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:42:41,504 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:42:44,083 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:42:44,083 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:42:44,118 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:42:47,737 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
+2022-02-02 15:42:53,330 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:42:57,624 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:42:57,624 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:42:57,649 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:43:07,975 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:43:08,004 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:43:15,145 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 4'}
+2022-02-02 15:43:20,281 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:44:31,968 DEBUG    kuznetsov main.py / GET-request: {}
+2022-02-02 15:44:32,040 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 15:44:34,812 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:44:34,812 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:44:34,838 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:44:34,838 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:44:34,877 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:44:37,490 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:44:37,519 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:44:44,633 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 2'}
+2022-02-02 15:44:44,698 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:44:49,842 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '2'}
+2022-02-02 15:44:49,891 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:45:01,461 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 5 для К_2'}
+2022-02-02 15:45:01,514 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:45:05,812 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:45:05,813 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:45:05,840 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:45:05,841 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:45:05,878 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:51:10,225 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:51:10,226 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:51:10,266 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:51:10,267 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:51:10,304 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:51:11,933 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:51:11,962 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:51:16,833 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категория 1'}
+2022-02-02 15:51:16,895 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:51:19,367 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:51:19,368 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:51:19,400 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:51:22,340 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:51:22,365 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:51:22,393 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:51:29,137 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1'}
+2022-02-02 15:51:29,201 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:51:31,220 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:51:31,272 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:51:34,856 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:51:34,884 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:51:34,918 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:51:36,655 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '3'}
+2022-02-02 15:51:36,713 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:51:40,505 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:51:40,505 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:51:40,544 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:51:43,018 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:51:43,018 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:51:43,052 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:51:45,673 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:51:45,709 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:52:09,072 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:52:09,073 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:52:09,101 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:52:09,102 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:52:09,144 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:52:22,724 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:52:22,724 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:52:22,753 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:52:22,753 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:52:22,789 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 Starting the server on the port 8080...
+2022-02-02 15:52:54,908 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:52:54,909 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:52:54,979 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:52:56,815 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 15:52:56,844 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:53:01,920 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Категормя 1'}
+2022-02-02 15:53:01,969 DEBUG    kuznetsov main.py /category-create/logo.jpg/ GET-request: {}
+2022-02-02 15:53:04,476 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:53:04,476 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:53:04,510 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 15:53:05,853 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 15:53:05,886 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:53:09,333 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1'}
+2022-02-02 15:53:09,393 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 15:53:11,423 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '1'}
+2022-02-02 15:53:11,458 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 15:53:14,788 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:53:14,788 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:53:14,820 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 15:53:14,820 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 15:53:14,857 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 15:53:17,133 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 15:53:17,133 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 15:53:17,167 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 17:38:28,237 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 17:38:41,441 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 17:38:41,441 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 17:38:48,675 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 17:38:48,772 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 17:38:50,972 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
+2022-02-02 17:38:50,973 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 17:39:14,377 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 17:39:14,377 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 17:39:14,447 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 17:39:43,269 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 17:39:50,898 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 17:39:50,898 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 17:39:50,934 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 17:40:07,857 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 17:42:09,460 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 17:42:22,631 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 17:42:22,632 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 17:42:22,670 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 17:42:22,671 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 17:42:22,701 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 17:42:45,090 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 18:31:41,874 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 18:31:53,922 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:31:53,922 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:31:53,969 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:31:57,678 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 18:31:57,678 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:31:57,735 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:32:04,380 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:32:04,380 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:32:04,409 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:32:04,409 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:32:04,444 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:32:07,542 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:32:07,548 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:32:07,608 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:32:12,313 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 18:32:12,380 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:32:25,166 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 18:32:25,225 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:32:27,376 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-02 18:32:27,443 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:32:34,982 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:32:34,982 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:32:35,030 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:32:35,030 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:32:35,114 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:32:37,147 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:32:37,147 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:32:37,202 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:32:41,271 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:32:41,271 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:32:41,310 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:32:43,330 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 18:32:43,330 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:32:43,366 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:33:03,309 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
+2022-02-02 18:33:03,369 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:34:35,349 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 18:34:43,314 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:34:43,315 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:34:43,363 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:34:47,002 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:34:47,002 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:34:47,073 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:34:48,674 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 18:34:48,738 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:35:14,621 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:35:14,622 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:35:14,658 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:35:16,185 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:35:16,186 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:35:16,220 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:35:18,975 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-02 18:41:58,536 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 18:42:00,135 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 18:42:09,735 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:42:09,736 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:42:09,788 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:42:11,634 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:42:11,634 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:42:11,690 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:42:14,954 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 18:43:46,248 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 18:43:58,253 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:43:58,259 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:43:58,308 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:43:58,309 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:43:58,350 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:44:00,100 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:44:00,100 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:44:00,134 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:44:01,494 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 18:44:01,550 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:44:04,447 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-02 18:44:04,507 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:44:05,910 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 18:44:05,945 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:44:08,244 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '7'}
+2022-02-02 18:44:08,304 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 18:44:13,630 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:44:13,631 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:44:13,657 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:44:13,657 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:44:13,691 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:44:16,952 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 18:44:16,952 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:44:16,986 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 18:44:20,131 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:44:20,133 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:44:20,162 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 18:44:20,162 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 18:44:20,206 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 18:44:21,818 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 18:44:21,818 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 18:44:21,855 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:08:22,654 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:08:32,752 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:08:45,562 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:08:59,823 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 19:08:59,823 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 19:08:59,874 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 19:08:59,875 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 19:08:59,902 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 19:09:36,869 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 19:09:36,870 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 19:09:36,896 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 19:09:36,896 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 19:09:36,932 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 19:09:36,961 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 19:09:38,333 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:09:38,333 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:09:38,388 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:09:42,499 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 19:09:42,499 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 19:09:42,538 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 19:09:44,350 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:09:44,350 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:09:44,407 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:10:15,554 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:10:15,554 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:10:15,610 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:10:18,350 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:13:00,117 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:13:07,833 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:13:07,833 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:13:07,896 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:13:09,730 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:13:09,731 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:15:39,894 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:15:39,896 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:15:39,952 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:15:44,243 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:21:39,915 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:21:49,296 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:21:49,297 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:21:49,371 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:21:50,984 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:21:50,985 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:21:51,037 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:21:53,343 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:21:53,344 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:21:53,398 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:27:20,556 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:27:32,269 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:27:32,269 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:27:32,303 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:27:32,303 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:27:32,337 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:27:33,821 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:27:33,822 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:27:33,877 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:27:35,349 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:27:35,349 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:27:35,406 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:27:39,147 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'id': '2'}
+2022-02-02 19:38:28,026 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:38:39,644 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:38:39,645 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:38:39,718 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:38:41,600 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:38:41,600 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:38:41,659 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:38:43,457 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:38:43,457 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:38:43,512 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:38:47,118 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'id': '3'}
+2022-02-02 19:39:54,607 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'id': '3'}
+2022-02-02 19:40:29,967 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:40:37,334 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:40:37,334 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:40:37,379 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:40:38,896 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:40:38,896 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:40:38,930 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:40:42,967 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:40:42,967 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:40:42,995 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:40:42,995 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:40:43,027 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:40:45,099 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '2'}
+2022-02-02 19:40:45,152 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:40:50,018 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:40:50,018 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:40:50,046 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:40:50,047 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:40:50,077 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:40:52,049 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '2'}
+2022-02-02 19:40:52,102 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:40:56,684 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:40:56,684 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:40:56,711 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:40:56,711 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:40:56,742 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:40:58,184 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
+2022-02-02 19:40:58,242 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:41:02,816 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:02,816 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:02,838 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:02,838 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:02,867 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:04,979 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:04,979 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:05,014 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:13,397 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:13,398 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:13,432 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:15,747 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:15,747 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:15,785 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:20,493 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:20,493 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:20,518 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:24,517 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:24,517 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:24,543 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:24,544 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:24,575 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:29,866 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:29,867 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:29,895 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:29,895 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:29,926 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:41,466 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:41,466 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:41,493 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:41,494 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:41,523 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:45,351 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:45,351 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:45,372 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:41:45,372 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:41:45,398 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:41:47,245 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:41:47,245 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:41:47,278 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:43:21,344 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:43:21,344 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:43:21,380 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:43:24,614 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:43:24,614 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:46:27,492 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:46:27,492 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:46:46,110 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:46:46,112 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:46:46,113 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:46:46,114 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:46:46,115 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:46:47,066 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:46:47,066 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:46:47,103 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:46:53,157 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:46:53,157 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:46:56,774 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:47:01,842 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:47:01,843 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:47:01,867 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:47:01,867 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:47:01,898 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:47:03,228 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:52:25,630 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:52:39,590 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:52:39,596 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:52:39,641 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:52:39,641 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:52:39,681 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:52:41,609 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:52:41,667 DEBUG    kuznetsov main.py /student-create/logo.jpg/ GET-request: {}
+2022-02-02 19:52:51,935 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Иванова Наташа'}
+2022-02-02 19:52:51,979 DEBUG    kuznetsov main.py /student-create/logo.jpg/ GET-request: {}
+2022-02-02 19:53:45,092 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:53:45,093 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:53:45,165 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:53:58,138 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:53:58,139 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:53:58,172 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:53:58,173 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:53:58,206 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:54:00,397 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:54:00,397 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:54:00,430 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:54:12,881 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:54:12,881 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:54:12,915 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:54:14,414 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:54:14,415 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:57:06,023 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:57:18,984 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 19:57:25,482 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:57:25,483 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:57:25,530 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:57:28,061 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 19:57:28,062 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:57:54,134 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:57:57,096 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:57:57,097 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:58:07,020 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:58:10,083 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '2'}
+2022-02-02 19:58:14,777 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:58:18,595 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 19:58:18,595 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:58:18,657 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:58:20,647 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
+2022-02-02 19:58:20,704 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:58:23,862 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:58:23,862 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:58:23,898 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:58:26,347 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-02 19:58:26,348 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:58:31,110 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:58:33,778 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-02 19:58:33,778 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:58:33,841 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:58:36,347 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '1'}
+2022-02-02 19:58:36,409 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:58:37,829 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-02 19:58:37,830 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:58:37,890 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:58:42,697 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:58:42,697 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:58:42,726 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:58:42,726 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:58:42,758 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 19:58:47,500 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 19:58:47,556 DEBUG    kuznetsov main.py /student-create/logo.jpg/ GET-request: {}
+2022-02-02 19:58:56,873 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Иванова Ната'}
+2022-02-02 19:58:56,930 DEBUG    kuznetsov main.py /student-create/logo.jpg/ GET-request: {}
+2022-02-02 19:58:59,011 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-02 19:58:59,012 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 19:58:59,064 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 19:59:00,326 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 19:59:00,326 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:59:00,381 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:59:02,478 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '3'}
+2022-02-02 19:59:02,534 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:59:04,062 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 19:59:04,062 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:59:04,124 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:59:05,327 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '3'}
+2022-02-02 19:59:05,381 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:59:06,476 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 19:59:06,477 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:59:06,522 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:59:07,877 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '3'}
+2022-02-02 19:59:07,943 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:59:09,075 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 19:59:09,075 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:59:09,111 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:59:10,379 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '3'}
+2022-02-02 19:59:10,439 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 19:59:12,763 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 19:59:12,763 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:59:12,792 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 19:59:12,792 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 19:59:12,822 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 19:59:19,396 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:59:19,396 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:59:19,423 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 19:59:19,424 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 19:59:19,455 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 20:00:35,393 DEBUG    kuznetsov main.py /study-programs/ GET-request: {}
+2022-02-02 20:01:51,005 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:01:51,006 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:01:51,066 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 20:02:07,576 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:02:07,576 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:02:07,614 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:02:09,296 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:02:09,296 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:02:09,331 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 20:02:11,523 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:02:11,523 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:02:11,559 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:02:14,779 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:02:14,780 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:02:14,814 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:02:14,815 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:02:14,849 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:02:42,579 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:02:42,580 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:02:42,636 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:03:45,707 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:03:45,709 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:03:45,771 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:04:08,871 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:04:08,877 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:04:08,935 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:06:35,858 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:06:35,864 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:06:35,923 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:00,136 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:07:00,136 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:07:00,193 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:09,861 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:07:09,861 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:07:09,888 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:07:09,888 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:07:09,924 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:13,906 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:07:13,907 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:07:13,934 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:07:13,934 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:07:13,973 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:17,194 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:07:17,195 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:07:17,227 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:07:17,228 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:07:17,264 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:21,065 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 20:07:21,066 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 20:07:21,099 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:24,919 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-02 20:07:24,978 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 20:07:31,783 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс777'}
+2022-02-02 20:07:31,863 DEBUG    kuznetsov main.py /course-create/logo.jpg/ GET-request: {}
+2022-02-02 20:07:35,865 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-02 20:07:35,962 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 20:07:51,725 DEBUG    kuznetsov main.py / GET-request: {}
+2022-02-02 20:07:51,778 DEBUG    kuznetsov main.py /logo.jpg/ GET-request: {}
+2022-02-02 20:07:53,738 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:07:53,739 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:07:53,772 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:07:55,842 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:07:55,894 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 20:07:56,642 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 20:07:56,698 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 20:07:59,594 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:07:59,595 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:07:59,619 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:05,270 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:08:05,270 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:08:05,299 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:08:05,300 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:08:05,333 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:07,970 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:08:07,971 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:08:08,006 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:08:08,006 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:08:08,050 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:11,509 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-02 20:08:11,510 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 20:08:11,563 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:13,641 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-02 20:08:13,700 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 20:08:18,954 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:08:18,954 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:08:18,981 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:08:18,981 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:08:19,013 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:22,587 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:08:22,587 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:08:22,614 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 20:08:22,615 DEBUG    kuznetsov views.py Список студентов
+2022-02-02 20:08:22,647 DEBUG    kuznetsov main.py /student-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:37,573 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-02 20:08:37,573 DEBUG    kuznetsov views.py Список курсов
+2022-02-02 20:08:37,629 DEBUG    kuznetsov main.py /student-course-list/logo.jpg/ GET-request: {}
+2022-02-02 20:08:39,942 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 20:08:39,942 DEBUG    kuznetsov views.py Список курсов для выбора Студенту
+2022-02-02 20:08:40,005 DEBUG    kuznetsov main.py /course-select/logo.jpg/ GET-request: {}
+2022-02-02 20:08:42,401 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '3'}
+2022-02-02 20:08:42,466 DEBUG    kuznetsov main.py /course-add-student/logo.jpg/ GET-request: {}
+2022-02-02 20:08:48,538 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:08:48,559 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 20:08:48,590 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 20:08:49,230 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 20:08:49,257 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 20:08:49,769 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:08:49,815 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:08:51,580 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:08:51,613 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 20:08:52,630 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 20:08:52,658 DEBUG    kuznetsov main.py /about/logo.jpg/ GET-request: {}
+2022-02-02 20:09:46,695 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:09:46,752 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:11:19,079 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:11:19,120 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:12:10,106 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:12:10,159 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:12:47,576 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:12:47,627 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:13:42,917 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:13:42,968 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:14:34,019 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:14:34,069 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:15:11,942 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:15:11,995 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:15:20,172 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:15:20,225 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:15:30,316 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:15:30,368 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:15:42,572 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:15:42,628 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:15:51,230 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:15:51,279 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:16:06,075 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:16:06,123 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:16:12,318 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-02 20:16:12,365 DEBUG    kuznetsov main.py /contact/logo.jpg/ GET-request: {}
+2022-02-02 20:16:33,493 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:16:33,494 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:16:33,525 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:16:33,525 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:16:33,561 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:17:13,078 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:17:13,079 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:17:13,154 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:17:34,014 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 20:17:34,014 DEBUG    kuznetsov views.py Список категорий
+2022-02-02 20:17:34,069 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 20:40:19,051 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 20:40:48,687 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:40:48,694 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:40:48,721 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 20:41:04,845 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:49:41,958 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 20:49:44,102 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 20:49:57,458 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 20:50:00,932 DEBUG    kuznetsov views.py Started  Home page controller  with request={'method': 'GET', 'request_params': {}, 'date': datetime.date(2022, 2, 2), 'key': 'key'}
+2022-02-02 21:05:52,554 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:15:24,563 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:18:39,685 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:18:44,331 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:24:29,787 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:24:54,801 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:24:57,417 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:24:57,438 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:25:59,103 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-02 21:25:59,119 DEBUG    kuznetsov main.py /course-list/logo.jpg/ GET-request: {}
+2022-02-02 21:26:02,210 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
+2022-02-02 21:26:02,268 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 21:27:10,631 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
+2022-02-02 21:27:10,648 DEBUG    kuznetsov main.py /course-copy/logo.jpg/ GET-request: {}
+2022-02-02 21:27:13,989 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:27:15,468 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 21:27:17,389 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 21:27:19,094 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '2'}
+2022-02-02 21:27:21,488 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 21:27:22,718 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '2'}
+2022-02-02 21:27:24,886 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:27:26,568 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-02 21:27:27,652 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-02 21:27:29,370 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '1'}
+2022-02-02 21:27:31,553 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:27:33,385 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 21:27:43,030 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Иван Иванович'}
+2022-02-02 21:27:45,007 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-02 21:27:46,392 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 21:27:47,727 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '3'}
+2022-02-02 21:27:49,873 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 21:27:51,193 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '3'}
+2022-02-02 21:27:52,508 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 21:27:53,510 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '3'}
+2022-02-02 21:27:55,473 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:27:58,587 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-02 21:28:01,478 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-02 21:28:02,875 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '1'}
+2022-02-02 21:28:04,943 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:28:08,271 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-02 21:28:10,412 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:28:11,554 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-02 21:28:12,787 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:28:24,267 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-02 21:28:24,287 DEBUG    kuznetsov main.py /index/logo.jpg/ GET-request: {}
+2022-02-02 21:28:26,349 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:28:26,369 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-02 21:33:37,348 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-02 21:33:47,618 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:33:49,820 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-02 21:33:51,032 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-02 21:33:52,486 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '1'}
+2022-02-02 21:33:54,118 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-02 21:33:55,202 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '1'}
+2022-02-02 21:33:57,617 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:33:58,902 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-02 21:34:00,533 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-02 21:34:01,487 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '2'}
+2022-02-02 21:34:03,148 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:34:04,269 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:34:04,296 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:34:06,474 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
+2022-02-02 21:34:10,398 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'rrrrRrrRrR'}
+2022-02-02 21:34:12,687 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '3'}
+2022-02-02 21:34:13,816 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
+2022-02-02 21:34:18,165 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'kjnlkjnlknj'}
+2022-02-02 21:34:20,084 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-02 21:34:22,750 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:34:22,769 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:34:25,597 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '3'}
+2022-02-02 21:34:30,035 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:34:30,053 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:34:31,229 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
+2022-02-02 21:34:31,243 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:34:36,115 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'sdewfewwefew111'}
+2022-02-02 21:34:39,750 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:34:39,762 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-02 21:34:39,786 DEBUG    kuznetsov main.py /category-list/logo.jpg/ GET-request: {}
+2022-02-02 21:34:42,415 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '3'}
+2022-02-02 21:34:44,568 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-02 21:34:48,631 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-02 21:35:00,296 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Пупкин Александр'}
+2022-02-02 21:35:02,137 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-02 21:35:03,916 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-02 21:35:05,378 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '3'}
+2022-02-02 21:35:08,218 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
