@@ -17,7 +17,11 @@ night_sky - main
     <div id="site_content">
         {% include "inc-sidebar.html" %}
         <div id="content">
-            <h1>Создание категории</h1>
+            {% if category_name %}
+                <h1>Создание подКатегории для категории "{{category_name}}"</h1>
+            {% else %}
+                <h1>Создание категории</h1>
+            {% endif %}
             <form method="post">
                 <input type="text" name="name" placeholder="Название">
                 <button type="submit">Сохранить и вернуться к списку категорий</button>

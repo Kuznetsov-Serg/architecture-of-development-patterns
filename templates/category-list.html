@@ -22,19 +22,27 @@ night_sky - main
             </div>
             <br>
             <br>
-            <h1>Список категорий</h1>
+            {% if category_name %}
+                <h1>Список подКатегории для категории "{{category_name}}"</h1>
+            {% else %}
+                <h1>Список категорий</h1>
+            {% endif %}
             {% if objects_list|length %}
                 <table>
                     <tr class="head">
                         <th>Наименование</th>
+                        <th>Количество подКатегорий</th>
                         <th>Количество курсов</th>
+                        <th></th>
                         <th></th>
                         <th></th>
                     </tr>
                     {% for item in objects_list %}
                     <tr>
                         <td>{{item.name}}</td>
-                        <td>{{item.course_count()}}</td>
+                        <td>{{item.sub_category_count(item)}}</td>
+                        <td>{{item.course_count(item)}}</td>
+                        <td><a href="/category-list/?category_id={{item.id}}">Список подкатегорий</a></td>
                         <td><a href="/course-list/?id={{item.id}}">Список курсов</a></td>
                         <td><a href="/course-create/?id={{item.id}}">Создать курс</a></td>
                     </tr>
@@ -45,7 +53,7 @@ night_sky - main
             {% endif %}
             <div>
                 <br>
-                <li><a href="/category-create/">Создать категорию</a></li>
+                <li><a href="/category-create/?category_id={{category_id}}">Создать категорию</a></li>
             </div>
         </div>
     </div>

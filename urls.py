@@ -1,5 +1,6 @@
 from datetime import date
 from views import *
+from patterns.structural_patterns import routes as routes_decorator
 
 
 # front controller
@@ -16,16 +17,18 @@ fronts = [secret_front, other_front]
 routes = {
     '/': Index(),
     '/index/': Index(),
-    '/about/': About(),
+    # '/about/': About(),
     '/course-list/': CourseList(),
-    '/course-create/': CourseCreate(),
+    # '/course-create/': CourseCreate(),
     '/course-copy/': CourseCopy(),
-    '/course-select/': CourseListForSelect(),
+    # '/course-select/': CourseListForSelect(),
     '/course-add-student/': CourseAddStudent(),
-    '/category-create/': CategoryCreate(),
+    # '/category-create/': CategoryCreate(),
     '/category-list/': CategoryList(),
-    '/student-list/': StudentList(),
+    # '/student-list/': StudentList(),
     '/student-create/': StudentCreate(),
-    '/student-course-list/': StudentCourseList(),
+    # '/student-course-list/': StudentCourseList(),
     '/contact/': Contact(),
+    # Decorators have a higher priority (if the URL is specified here and on the decorator)
+    **routes_decorator,
 }

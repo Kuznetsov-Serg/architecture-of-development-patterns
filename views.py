@@ -1,35 +1,48 @@
 from framework.templator import render
 from framework.logger import Logger
 from patterns.сreational_patterns import Engine
+from patterns.structural_patterns import AppRoute, Debug
 
 
 site = Engine()
 logger = Logger('views', is_debug_console=True)
 
 
+# @AppRoute(routes=routes, url='/')
+# @AppRoute('/')
 class Index:
     """ Home page controller """
+
+    @Debug()
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         return '200 OK', render('index.html')
 
 
+@AppRoute('/about/')
 class About:
     """ Controller 'about the project' """
+
+    @Debug()
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         return '200 OK', render('about.html')
 
 
+# @AppRoute('/contact/')
 class Contact:
     """ Controller of the 'contacts' page """
+
+    @Debug()
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         return '200 OK', render('contact.html', date=request.get('date', None))
 
 
+# @AppRoute('/course-list/')
 class CourseList:
     """ Controller - list of courses """
+
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         try:
@@ -44,8 +57,10 @@ class CourseList:
             return msg
 
 
+@AppRoute('/student-course-list/')
 class StudentCourseList:
     """ controller - list of student courses """
+
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         try:
@@ -60,8 +75,10 @@ class StudentCourseList:
             return msg
 
 
+@AppRoute('/course-select/')
 class CourseListForSelect:
     """ Controller - a list of courses to add to the Student """
+
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         try:
@@ -77,6 +94,7 @@ class CourseListForSelect:
             return msg
 
 
+@AppRoute('/course-create/')
 class CourseCreate:
     """ Controller - creating a course """
     category_id = -1
@@ -115,6 +133,7 @@ class CourseCreate:
                 return msg
 
 
+# @AppRoute('/student-create/')
 class StudentCreate:
     """ Controller - create a student """
     def __call__(self, request):
@@ -142,8 +161,12 @@ class StudentCreate:
                                     categories=students)
 
 
+@AppRoute('/category-create/')
 class CategoryCreate:
-    """ Controller - create a category """
+    """ Controller - create a SubCategory """
+
+    category_id = -1
+
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         if request['method'] == 'POST':
@@ -152,31 +175,50 @@ class CategoryCreate:
             name = data['name']
             name = site.decode_value(name)
 
-            category_id = data.get('category_id')
-
-            category = None
-            if category_id:
-                category = site.find_category_by_id(int(category_id))
-
+            category = None if self.category_id == -1 else site.find_category_by_id(self.category_id)
             new_category = site.create_category(name, category)
-
             site.categories.append(new_category)
 
-            return '200 OK', render('category-list.html', objects_list=site.categories)
+            if category:
+                request = {'request_params': {'category_id': category.id}}
+            else:
+                request = {'request_params': {}}
+            return CategoryList.__call__(CategoryList, request)
+            # return '200 OK', render('category-list.html', objects_list=site.categories)
         else:
+            if ('category_id' in request['request_params']) and request['request_params']['category_id'] not in ('', 'None'):
+                self.category_id = int(request['request_params']['category_id'])
+                category = site.find_category_by_id(int(self.category_id))
+                category_name = category.name
+            else:
+                category_name = ''
             categories = site.categories
+
             return '200 OK', render('category-create.html',
-                                    categories=categories)
+                                    categories=categories,
+                                    category_name=category_name)
 
 
+# @AppRoute('/category-list/')
 class CategoryList:
     """ Controller - list of categories """
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
-        return '200 OK', render('category-list.html',
-                                objects_list=site.categories)
+
+        if 'category_id' in request['request_params']:
+            category = site.find_category_by_id(int(request['request_params']['category_id']))
+            return '200 OK', render('category-list.html',
+                                    objects_list=category.categories,
+                                    category_name=category.name,
+                                    category_id=category.id)
+        else:
+            # only first level
+            objects_list = [el for el in site.categories if el.category == None]
+            return '200 OK', render('category-list.html',
+                                    objects_list=objects_list)
 
 
+@AppRoute('/student-list/')
 class StudentList:
     """ Controller - list of Students """
     def __call__(self, request):
@@ -185,6 +227,7 @@ class StudentList:
                                 objects_list=site.students)
 
 
+# @AppRoute('/course-copy/')
 class CourseCopy:
     """ Controller - copy course """
     def __call__(self, request):
@@ -210,6 +253,7 @@ class CourseCopy:
             return msg
 
 
+# @AppRoute('/course-add-student/')
 class CourseAddStudent:
     """ Controller - adding a Course to a Student """
     def __call__(self, request):
@@ -234,4 +278,3 @@ class CourseAddStudent:
             msg = '200 OK', 'No courses have been added yet'
             logger.error(msg)
             return msg
-

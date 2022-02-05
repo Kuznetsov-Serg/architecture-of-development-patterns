@@ -90,12 +90,25 @@ class Category:
         self.id = id if id else Category.auto_id
         self.name = name
         self.category = category
+        self.categories = []
         self.courses = []
-
-    def course_count(self):
-        result = len(self.courses)
         if self.category:
-            result += self.category.course_count()
+            self.category.categories.append(self)
+
+    @classmethod
+    def sub_category_count(cls, category):
+        result = len(category.categories)
+        for el in category.categories:
+            result += cls.sub_category_count(el)
+
+        return result
+
+    @classmethod
+    def course_count(cls, category):
+        result = len(category.courses)
+        for el in category.categories:
+            result += cls.course_count(el)
+
         return result
 
 
