@@ -2,10 +2,13 @@ from framework.templator import render
 from framework.logger import Logger
 from patterns.сreational_patterns import Engine
 from patterns.structural_patterns import AppRoute, Debug
+from patterns.behavioral_patterns import *
 
 
 site = Engine()
 logger = Logger('views', is_debug_console=True)
+email_notifier = EmailNotifier()
+sms_notifier = SmsNotifier()
 
 
 # @AppRoute(routes=routes, url='/')
@@ -112,6 +115,7 @@ class CourseCreate:
                 category = site.find_category_by_id(int(self.category_id))
 
                 course = site.create_course('record', name, category)
+
                 site.courses.append(course)
 
             return '200 OK', render('course-list.html',
@@ -133,98 +137,97 @@ class CourseCreate:
                 return msg
 
 
-# @AppRoute('/student-create/')
-class StudentCreate:
-    """ Controller - create a student """
+# @AppRoute('/category-list/')
+class CategoryList(ListView):
+    """ Controller - list of categories """
+
+    queryset = site.categories
+    template_name = 'category-list.html'
+    category = None
+
+    def get_context_data(self):
+        context = super().get_context_data()
+        if self.category:
+            context['objects_list'] = self.category.categories
+            context['category_name'] = self.category.name
+            context['category_id'] = self.category.id
+        else:
+            context['objects_list'] = [el for el in site.categories if el.category == None]
+
+        return context
+
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
-        if request['method'] == 'POST':
-            data = request['data']
-
-            name = data['name']
-            name = site.decode_value(name)
-
-            student_id = data.get('student_id')
-
-            student = None
-            if student_id:
-                student = site.find_students_by_id(int(student_id))
-
-            new_student = site.create_user('student', name)
-
-            site.students.append(new_student)
-
-            return '200 OK', render('student-list.html', objects_list=site.students)
+        if 'category_id' in request['request_params']:
+            self.category = site.find_category_by_id(int(request['request_params']['category_id']))
         else:
-            students = site.students
-            return '200 OK', render('student-create.html',
-                                    categories=students)
+            self.category = None
+
+        return super().__call__(request)
 
 
 @AppRoute('/category-create/')
-class CategoryCreate:
+class CategoryCreate(CreateView):
     """ Controller - create a SubCategory """
 
-    category_id = -1
+    template_name = 'category-create.html'
+    redirect_to = CategoryList()
+    category = None
+
+    def get_context_data(self):
+        context = super().get_context_data()
+        if self.category:
+            context['category_name'] = self.category.name
+        return context
+
+    def create_obj(self, data: dict):
+        name = data['name']
+        name = site.decode_value(name)
+        new_category = site.create_category(name, self.category)
+        site.categories.append(new_category)
 
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
-        if request['method'] == 'POST':
-            data = request['data']
-
-            name = data['name']
-            name = site.decode_value(name)
-
-            category = None if self.category_id == -1 else site.find_category_by_id(self.category_id)
-            new_category = site.create_category(name, category)
-            site.categories.append(new_category)
-
-            if category:
-                request = {'request_params': {'category_id': category.id}}
+        if request['method'] != 'POST':
+            if ('request_params' in request) \
+                    and ('category_id' in request['request_params']) \
+                    and request['request_params']['category_id'] not in ('', 'None'):
+                category_id = int(request['request_params']['category_id'])
+                self.category = site.find_category_by_id(int(category_id))
             else:
-                request = {'request_params': {}}
-            return CategoryList.__call__(CategoryList, request)
-            # return '200 OK', render('category-list.html', objects_list=site.categories)
-        else:
-            if ('category_id' in request['request_params']) and request['request_params']['category_id'] not in ('', 'None'):
-                self.category_id = int(request['request_params']['category_id'])
-                category = site.find_category_by_id(int(self.category_id))
-                category_name = category.name
-            else:
-                category_name = ''
-            categories = site.categories
+                self.category = None
 
-            return '200 OK', render('category-create.html',
-                                    categories=categories,
-                                    category_name=category_name)
-
-
-# @AppRoute('/category-list/')
-class CategoryList:
-    """ Controller - list of categories """
-    def __call__(self, request):
-        logger.debug(f'Started {self.__doc__} with request={request}')
-
-        if 'category_id' in request['request_params']:
-            category = site.find_category_by_id(int(request['request_params']['category_id']))
-            return '200 OK', render('category-list.html',
-                                    objects_list=category.categories,
-                                    category_name=category.name,
-                                    category_id=category.id)
-        else:
-            # only first level
-            objects_list = [el for el in site.categories if el.category == None]
-            return '200 OK', render('category-list.html',
-                                    objects_list=objects_list)
+        return super().__call__(request)
 
 
 @AppRoute('/student-list/')
-class StudentList:
+class StudentList(ListView):
     """ Controller - list of Students """
+    queryset = site.students
+    template_name = 'student-list.html'
+
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
-        return '200 OK', render('student-list.html',
-                                objects_list=site.students)
+        return super().__call__(request)
+
+
+# @AppRoute('/student-create/')
+class StudentCreate(CreateView):
+    """ Controller - create a student """
+    template_name = 'student-create.html'
+    redirect_to = StudentList()
+
+
+    def create_obj(self, data: dict):
+        name = data['name']
+        name = site.decode_value(name)
+        student = site.create_user('student', name)
+
+        site.students.append(student)
+
+    def __call__(self, request):
+        logger.debug(f'Started {self.__doc__} with request={request}')
+        return super().__call__(request)
 
 
 # @AppRoute('/course-copy/')
@@ -267,7 +270,8 @@ class CourseAddStudent:
             student = site.find_students_by_id(int(student_id))
             course = site.get_course_by_id(int(course_id))
 
-            student.courses.append(course)
+            # student.courses.append(course)
+            course.add_student(student)
 
             return '200 OK', render('student-course-list.html',
                                     objects_list=student.courses,
@@ -278,3 +282,17 @@ class CourseAddStudent:
             msg = '200 OK', 'No courses have been added yet'
             logger.error(msg)
             return msg
+
+
+@AppRoute('/api-courses/')
+class CourseApi:
+    @Debug()
+    def __call__(self, request):
+        return '200 OK', BaseSerializer(site.courses).save()
+
+
+@AppRoute('/api-students/')
+class StudentApi:
+    @Debug()
+    def __call__(self, request):
+        return '200 OK', BaseSerializer(site.students).save()

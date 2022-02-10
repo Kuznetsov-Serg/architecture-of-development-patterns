@@ -945,3 +945,635 @@
 2022-02-05 18:21:00,795 DEBUG    kuznetsov db_util.py Getting records from table category
 2022-02-05 18:21:00,796 DEBUG    kuznetsov db_util.py Getting records from table course
 2022-02-05 18:21:00,796 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 09:25:28,049 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 09:25:28,050 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 09:25:28,052 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 09:25:28,052 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 09:25:28,053 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 09:25:28,053 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 09:25:28,053 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 09:25:28,053 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 09:25:28,054 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 12:47:27,156 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 12:47:27,163 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 12:47:27,173 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 12:47:27,173 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 12:47:27,174 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 12:47:27,175 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 12:47:27,175 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 12:47:27,175 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 12:47:27,175 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 12:49:10,850 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 12:49:10,851 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 12:49:10,851 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 12:49:10,852 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 12:49:10,852 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 12:49:10,853 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 12:49:10,853 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 12:49:10,853 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 12:49:10,853 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 12:50:18,278 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 12:50:18,279 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 12:50:18,279 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 12:50:18,280 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 12:50:18,281 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 12:50:18,281 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 12:50:18,281 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 12:50:18,282 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 12:50:18,282 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 13:11:26,035 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 13:11:26,037 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 13:11:26,038 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 13:11:26,039 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 13:11:26,040 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 13:11:26,041 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 13:11:26,042 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 13:11:26,042 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 13:11:26,042 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 13:12:30,297 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 13:12:30,298 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 13:12:30,299 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 13:12:30,299 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 13:12:30,300 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 13:12:30,301 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 13:12:30,301 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 13:12:30,301 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 13:12:30,302 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 13:16:01,327 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 13:16:01,328 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 13:16:01,329 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 13:16:01,329 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 13:16:01,330 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 13:16:01,331 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 13:16:01,331 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 13:16:01,331 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 13:16:01,332 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 13:54:26,072 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 13:54:26,074 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 13:54:26,075 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 13:54:26,076 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 13:54:26,077 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 13:54:26,078 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 13:54:26,078 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 13:54:26,078 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 13:54:26,078 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:02:50,788 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:02:50,789 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:02:50,789 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:02:50,790 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:02:50,790 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:02:50,790 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:02:50,791 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:02:50,791 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:02:50,791 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:03:51,189 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:03:51,190 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:03:51,191 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:03:51,191 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:03:51,192 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:03:51,193 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:03:51,193 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:03:51,193 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:03:51,193 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:19:08,534 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:19:08,535 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:19:08,535 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:19:08,536 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:19:08,536 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:19:08,536 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:19:08,537 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:19:08,537 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:19:08,537 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:22:11,270 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:22:11,271 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:22:11,271 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:22:11,272 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:22:11,272 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:22:11,272 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:22:11,273 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:22:11,273 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:22:11,273 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:22:41,038 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:22:41,039 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:22:41,039 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:22:41,040 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:22:41,040 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:22:41,041 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:22:41,042 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:22:41,042 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:22:41,042 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:24:53,261 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:24:53,263 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:24:53,264 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:24:53,266 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:24:53,268 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:24:53,268 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:24:53,269 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:24:53,269 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:24:53,269 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:55:15,710 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:55:15,711 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:55:15,711 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:55:15,713 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:55:15,714 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:55:15,715 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:55:15,716 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:55:15,716 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:55:15,716 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:56:14,889 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:56:14,890 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:56:14,891 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:56:14,891 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:56:14,892 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:56:14,892 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:56:14,892 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:56:14,892 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:56:14,893 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 14:57:02,673 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 14:57:02,673 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 14:57:02,674 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 14:57:02,674 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 14:57:02,675 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 14:57:02,675 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 14:57:02,676 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 14:57:02,676 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 14:57:02,676 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 15:07:41,533 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 15:07:41,534 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 15:07:41,534 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 15:07:41,535 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 15:07:41,535 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 15:07:41,536 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 15:07:41,536 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 15:07:41,536 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 15:07:41,537 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 15:10:48,206 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 15:10:48,206 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 15:10:48,207 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 15:10:48,207 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 15:10:48,208 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 15:10:48,210 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 15:10:48,210 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 15:10:48,210 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 15:10:48,211 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 15:11:42,970 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 15:11:42,971 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 15:11:42,972 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 15:11:42,973 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 15:11:42,973 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 15:11:42,974 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 15:11:42,974 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 15:11:42,975 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 15:11:42,975 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 15:12:48,062 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 15:12:48,063 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 15:12:48,064 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 15:12:48,064 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 15:12:48,065 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 15:12:48,066 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 15:12:48,066 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 15:12:48,066 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 15:12:48,066 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 15:30:45,079 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 15:30:45,080 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 15:30:45,081 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 15:30:45,081 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 15:30:45,082 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 15:30:45,083 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 15:30:45,084 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 15:30:45,084 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 15:30:45,084 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:16:36,951 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:16:36,953 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:16:36,954 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:16:36,955 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:16:36,955 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:16:36,960 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:16:36,961 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:16:36,961 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:16:36,961 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:17:19,598 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:17:19,599 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:17:19,599 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:17:19,600 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:17:19,600 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:17:19,601 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:17:19,601 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:17:19,601 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:17:19,601 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:36:00,849 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:36:00,852 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:36:00,853 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:36:00,854 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:36:00,855 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:36:00,855 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:36:00,856 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:36:00,856 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:36:00,856 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:52:49,238 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:52:49,240 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:52:49,240 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:52:49,241 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:52:49,241 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:52:49,242 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:52:49,242 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:52:49,242 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:52:49,242 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:52:52,768 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:52:52,769 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:52:52,770 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:52:52,770 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:52:52,770 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:52:52,770 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:52:52,770 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:52:52,771 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:52:52,771 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:58:18,099 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:58:18,100 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:58:18,100 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:58:18,100 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:58:18,101 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:58:18,101 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:58:18,101 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:58:18,101 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:58:18,101 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 17:59:37,142 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 17:59:37,142 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 17:59:37,143 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 17:59:37,143 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 17:59:37,143 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 17:59:37,143 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 17:59:37,143 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 17:59:37,144 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 17:59:37,144 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:02:54,170 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:02:54,170 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:02:54,171 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:02:54,171 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:02:54,171 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:02:54,172 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:02:54,172 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:02:54,172 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:02:54,172 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:03:56,797 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:03:56,798 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:03:56,798 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:03:56,799 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:03:56,799 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:03:56,799 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:03:56,800 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:03:56,800 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:03:56,800 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:05:32,750 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:05:32,750 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:05:32,751 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:05:32,751 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:05:32,751 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:05:32,751 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:05:32,751 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:05:32,752 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:05:32,752 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:14:29,916 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:14:29,917 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:14:29,918 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:14:29,918 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:14:29,919 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:14:29,919 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:14:29,920 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:14:29,920 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:14:29,920 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:32:42,619 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:32:42,620 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:32:42,621 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:32:42,621 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:32:42,622 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:32:42,623 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:32:42,624 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:32:42,624 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:32:42,625 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:35:30,309 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:35:30,310 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:35:30,310 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:35:30,310 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:35:30,311 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:35:30,311 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:35:30,311 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:35:30,311 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:35:30,311 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:35:55,760 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:35:55,761 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:35:55,761 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:35:55,761 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:35:55,762 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:35:55,762 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:35:55,762 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:35:55,762 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:35:55,762 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:37:13,106 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:37:13,108 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:37:13,109 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:37:13,109 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:37:13,109 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:37:13,110 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:37:13,110 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:37:13,110 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:37:13,110 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:39:21,867 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:39:21,868 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:39:21,868 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:39:21,868 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:39:21,869 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:39:21,869 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:39:21,869 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:39:21,869 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:39:21,869 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:46:37,453 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:46:37,454 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:46:37,454 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:46:37,454 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:46:37,454 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:46:37,455 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:46:37,455 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:46:37,455 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:46:37,455 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:46:40,393 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:46:40,393 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:46:40,394 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:46:40,394 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:46:40,394 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:46:40,395 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:46:40,395 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:46:40,395 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:46:40,395 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 18:49:57,454 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 18:49:57,454 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 18:49:57,455 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 18:49:57,455 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 18:49:57,455 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 18:49:57,455 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 18:49:57,456 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 18:49:57,456 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 18:49:57,456 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:00:31,473 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:00:31,474 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:00:31,474 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:00:31,475 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:00:31,475 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:00:31,476 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:00:31,476 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:00:31,476 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:00:31,476 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:04:14,465 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:04:14,465 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:04:14,466 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:04:14,466 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:04:14,467 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:04:14,467 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:04:14,468 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:04:14,468 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:04:14,469 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:04:17,453 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:04:17,454 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:04:17,454 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:04:17,454 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:04:17,455 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:04:17,455 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:04:17,455 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:04:17,455 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:04:17,455 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:05:14,630 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:05:14,631 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:05:14,631 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:05:14,632 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:05:14,633 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:05:14,633 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:05:14,633 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:05:14,634 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:05:14,634 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:05:21,857 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:05:21,858 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:05:21,858 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:05:21,858 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:05:21,858 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:05:21,859 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:05:21,859 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:05:21,859 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:05:21,859 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:07:01,895 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:07:01,896 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:07:01,897 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:07:01,897 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:07:01,897 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:07:01,897 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:07:01,897 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:07:01,897 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:07:01,898 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:11:00,020 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:11:00,021 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:11:00,022 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:11:00,022 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:11:00,023 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:11:00,024 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:11:00,024 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:11:00,024 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:11:00,024 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:16:27,898 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:16:27,900 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:16:27,901 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:16:27,901 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:16:27,902 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:16:27,904 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:16:27,905 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:16:27,906 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:16:27,906 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:16:42,569 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:16:42,570 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:16:42,571 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:16:42,572 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:16:42,573 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:16:42,574 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:16:42,574 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:16:42,575 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:16:42,575 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:17:44,100 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:17:44,101 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:17:44,102 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:17:44,103 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:17:44,103 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:17:44,105 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:17:44,106 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:17:44,106 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:17:44,107 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:22:24,944 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:22:24,945 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:22:24,946 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:22:24,947 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:22:24,948 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:22:24,948 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:22:24,949 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:22:24,949 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:22:24,949 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:43:33,325 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:43:33,327 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:43:33,327 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:43:33,328 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:43:33,328 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:43:33,329 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:43:33,329 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:43:33,329 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:43:33,329 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:45:33,718 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:45:33,722 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:45:33,723 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:45:33,723 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:45:33,724 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:45:33,724 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:45:33,724 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:45:33,725 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:45:33,725 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:47:00,428 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:47:00,429 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:47:00,430 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:47:00,431 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:47:00,431 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:47:00,432 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:47:00,432 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:47:00,433 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:47:00,433 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 19:51:31,640 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 19:51:31,640 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 19:51:31,641 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 19:51:31,641 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 19:51:31,641 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 19:51:31,641 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 19:51:31,641 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 19:51:31,642 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 19:51:31,642 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 20:35:40,362 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 20:35:40,364 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 20:35:40,364 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 20:35:40,365 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 20:35:40,365 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 20:35:40,366 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 20:35:40,366 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 20:35:40,366 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 20:35:40,367 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 20:35:47,633 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 20:35:47,633 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 20:35:47,634 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 20:35:47,634 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 20:35:47,635 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 20:35:47,635 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 20:35:47,635 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 20:35:47,636 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 20:35:47,636 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 20:37:47,144 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 20:37:47,145 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 20:37:47,146 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 20:37:47,146 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 20:37:47,147 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 20:37:47,147 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 20:37:47,147 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 20:37:47,148 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 20:37:47,148 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 20:45:57,972 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 20:45:57,976 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 20:45:57,980 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 20:45:57,981 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 20:45:57,981 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 20:45:57,982 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 20:45:57,982 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 20:45:57,982 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 20:45:57,982 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 20:50:36,666 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 20:50:36,667 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 20:50:36,670 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 20:50:36,678 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 20:50:36,678 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 20:50:36,679 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 20:50:36,680 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 20:50:36,682 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 20:50:36,683 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 20:50:45,859 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 20:50:45,859 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 20:50:45,860 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 20:50:45,860 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 20:50:45,860 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 20:50:45,860 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 20:50:45,860 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 20:50:45,861 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 20:50:45,861 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:01:16,947 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:01:16,948 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:01:16,954 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:01:16,954 DEBUG    kuznetsov db_util.py Table category hasn`t a records
+2022-02-10 21:01:16,955 DEBUG    kuznetsov db_util.py Table student hasn`t a records
+2022-02-10 21:01:16,955 DEBUG    kuznetsov db_util.py Table course hasn`t a records
+2022-02-10 21:01:16,955 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:01:16,956 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:01:16,956 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:01:16,957 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:04:49,162 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:04:49,163 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:04:49,167 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:04:49,168 DEBUG    kuznetsov db_util.py Table category hasn`t a records
+2022-02-10 21:04:49,168 DEBUG    kuznetsov db_util.py Table student hasn`t a records
+2022-02-10 21:04:49,168 DEBUG    kuznetsov db_util.py Table course hasn`t a records
+2022-02-10 21:04:49,169 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:04:49,170 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:04:49,171 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:04:49,171 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:06:36,629 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:06:36,630 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:06:36,631 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:06:36,632 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 21:06:36,632 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 21:06:36,633 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 21:06:36,633 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:06:36,633 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:06:36,634 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:16:04,326 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:16:04,328 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:16:04,328 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:16:04,329 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 21:16:04,330 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 21:16:04,330 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 21:16:04,330 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:16:04,331 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:16:04,331 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:16:26,801 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:16:26,801 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:16:26,802 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:16:26,802 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 21:16:26,802 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 21:16:26,802 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 21:16:26,803 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:16:26,803 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:16:26,803 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:17:12,826 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:17:12,827 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:17:12,828 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:17:12,828 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 21:17:12,828 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 21:17:12,828 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 21:17:12,829 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:17:12,829 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:17:12,829 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:32:53,314 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:32:53,316 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:32:53,316 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:32:53,317 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 21:32:53,317 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 21:32:53,318 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 21:32:53,318 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:32:53,318 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:32:53,318 DEBUG    kuznetsov db_util.py Getting records from table student
+2022-02-10 21:34:22,727 DEBUG    kuznetsov db_util.py Opening or creating a database
+2022-02-10 21:34:22,728 DEBUG    kuznetsov db_util.py Connection to SQLite DB successful (path=database/my_database.db)
+2022-02-10 21:34:22,728 DEBUG    kuznetsov db_util.py Filling the database with data, if not already filled in
+2022-02-10 21:34:22,729 DEBUG    kuznetsov db_util.py Table category has a records
+2022-02-10 21:34:22,729 DEBUG    kuznetsov db_util.py Table student has a records
+2022-02-10 21:34:22,730 DEBUG    kuznetsov db_util.py Table course has a records
+2022-02-10 21:34:22,730 DEBUG    kuznetsov db_util.py Getting records from table category
+2022-02-10 21:34:22,730 DEBUG    kuznetsov db_util.py Getting records from table course
+2022-02-10 21:34:22,730 DEBUG    kuznetsov db_util.py Getting records from table student

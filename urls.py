@@ -25,7 +25,7 @@ routes = {
     '/course-add-student/': CourseAddStudent(),
     # '/category-create/': CategoryCreate(),
     '/category-list/': CategoryList(),
-    # '/student-list/': StudentList(),
+    '/student-list/': StudentList(),
     '/student-create/': StudentCreate(),
     # '/student-course-list/': StudentCourseList(),
     '/contact/': Contact(),

@@ -1,11 +1,17 @@
 from copy import deepcopy
 from quopri import decodestring
-from framework.db_util import *
 
+from framework.db_util import *
+from .behavioral_patterns import *
+
+
+email_notifier = EmailNotifier()
+sms_notifier = SmsNotifier()
 
 # абстрактный пользователь
 class User:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 
 # преподаватель
@@ -14,18 +20,21 @@ class Teacher(User):
 
 
 # студент
-class Student(User):
+class Student(User, Subject):
     auto_id = 0
 
     def __init__(self, name, id=None):
         Student.auto_id += 1
         self.id = id if id else Student.auto_id
-        self.name = name
         self.courses = []
+        super().__init__(name)
 
     def course_count(self):
         result = len(self.courses)
         return result
+
+    def __getitem__(self, item):
+        return self.courses[item]
 
 
 class UserFactory:
@@ -48,16 +57,25 @@ class CoursePrototype:
         return deepcopy(self)
 
 
-class Course(CoursePrototype):
+class Course(CoursePrototype, Subject):
     auto_id = 0
 
     def __init__(self, name, category, id=None):
+        super().__init__()
         Course.auto_id += 1
         self.id = id if id else Course.auto_id
         self.name = name
         self.category = category
         self.category.courses.append(self)
+        self.students = []
 
+    def __getitem__(self, item):
+        return self.students[item]
+
+    def add_student(self, student: Student):
+        self.students.append(student)
+        student.courses.append(self)
+        self.notify()
 
 # интерактивный курс
 class InteractiveCourse(Course):
@@ -126,7 +144,8 @@ class Engine:
         students = get_records(connection, 'student')
         # connection.close()
         for el in categories:
-            category = self.create_category(el['name'], None, el['id'])
+            category_parents = self.find_category_by_id(int(el['category_id'])) if el['category_id'] else None
+            category = self.create_category(el['name'], category_parents, el['id'])
             self.categories.append(category)
 
         for el in courses:
@@ -161,13 +180,21 @@ class Engine:
 
     @staticmethod
     def create_course(type_, name, category, id=None):
-        return CourseFactory.create(type_, name, category, id)
+        course = CourseFactory.create(type_, name, category, id)
+        course.observers.append(email_notifier)
+        course.observers.append(sms_notifier)
+        return course
 
     def get_course_by_id(self, id):
         for item in self.courses:
             if item.id == int(id):
                 return item
         return None
+
+    def get_student_by_id(self, id) -> Student:
+        for item in self.students:
+            if item.id == id:
+                return item
 
     @staticmethod
     def decode_value(val):

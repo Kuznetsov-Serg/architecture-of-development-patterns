@@ -17,30 +17,45 @@ night_sky - main
     <div id="site_content">
         {% include "inc-sidebar.html" %}
         <div id="content">
-            <h1>Welcome to the night_sky template</h1>
-            <p>This standards compliant, simple, fixed width website template is released as an 'open source' design
-                (under
-                a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>),
-                which
-                means that you are free to download and use it for anything you want (including modifying and amending
-                it).
-                All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the
-                template,
-                but other than that...</p>
-            <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be
-                validated
-                using the links in the footer.</p>
-            <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>
-            <p>This template is a fully functional 5 page website, with an <a href="examples.html">examples</a> page
-                that
-                gives examples of all the styles available with this design.</p>
-            <h2>Browser Compatibility</h2>
-            <p>This template has been tested in the following browsers:</p>
-            <ul>
-                <li>Internet Explorer 8</li>
-                <li>FireFox 3</li>
-                <li>Google Chrome 13</li>
-            </ul>
+            <h1>Архитектура и шаблоны проектирования на Python</h1>
+            <h4>Lesson 01 (Паттерны web-представления)</h4>
+            <p>
+                - реализация wsgi фреймворка используя паттерны page controller и front controller...<br>
+                - возможность отвечать на get запросы пользователя
+            </p>
+            <h4>Lesson 02 (Архитектура python-приложений)</h4>
+            <p>
+                - возможность обработки данных из post и get запросов<br>
+                - страница контактов на которой пользователь может отправить сообщение
+            </p>
+            <h4>Lesson 03 (Принципы проектирования)</h4>
+            <p>
+                - механизм наследования и включения шаблонов (базовый шаблон + несколько включенных шаблонов)<br>
+                - меню, которое отображаетсят на всех страницах
+            </p>
+            <h4>Lesson 04 (Порождающие паттерны)</h4>
+            <p>
+                - реализуем сущностей Категории и Курсы по обучению, Студенты<br>
+                - загрузка первичных данных из БД (SQLite), если БД нет - ее создание<br>
+                - реализация интерфейса создания новых сущностей + копирования курсов + Запись студента на курс<br>
+                - Logger (пишем в консоль и файл) отличает по имени при создании (Singleton)
+            </p>
+            <h4>Lesson 05 (Структурные паттерны)</h4>
+            <p>
+                - реализация альтернативного механизма URLs, по аналогии с фреймворком Flask @app(‘/some_url/’)<br>
+                - декоратор @debug, для функций - в терминал выводятся название функции и время ее выполнения<br>
+                - реализация неограниченной вложенности для категорий курсов (ссылается на др категорию)<br>
+                - 2 новых вида wsgi-application. Первый - логирующий, второй - фейковый (на все запросы - “200 OK”, “Hello from Fake”)
+            </p>
+            <h4>Lesson 06 (Поведенческие паттерны)</h4>
+            <p>
+                - реализация CBV (Class Based Views). Возможность создавать view в виде класса
+                <i>(расширил CreateView: redirect_to для возврата...)</i><br>
+                - при поступлении Студента на Курс, имитируется отправка SMS и Email
+                <i>(перенес из view в creation pattern, иначе при копировании или создании из БД не отрабатывают)</i><br>
+                - API для Курсов и Студентов<br>
+            </p>
+
         </div>
     </div>
 </div>

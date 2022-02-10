@@ -1,483 +1,534 @@
-2022-02-05 11:12:56,049 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:13:10,100 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:13:33,342 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 11:13:37,585 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 11:15:44,959 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:22:44,184 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:24:53,242 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:25:09,700 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 11:26:33,476 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:26:37,469 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:26:38,582 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 11:26:39,843 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 11:26:41,705 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 11:26:42,769 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:26:44,363 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:27:39,287 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:28:43,832 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:28:51,723 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 11:28:54,553 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:28:55,338 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 11:28:56,440 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 11:28:58,007 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:28:59,259 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:31:09,705 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:31:18,799 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:33:54,884 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:33:58,350 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:34:35,278 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:36:28,286 DEBUG    kuznetsov main.py /course-list/ GET-request: {}
-2022-02-05 11:37:43,927 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:39:44,396 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:39:49,314 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 11:44:55,948 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:45:03,724 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:45:39,121 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:45:46,061 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:51:47,721 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:53:49,408 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:53:58,578 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:56:32,639 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:56:38,020 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:57:32,157 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 11:57:34,240 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 11:58:20,823 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 12:04:13,075 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 12:04:34,901 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 12:10:27,585 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 12:11:41,084 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 12:11:57,629 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 12:12:41,404 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 12:12:50,631 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 12:12:57,028 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 12:33:54,778 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 12:34:02,929 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 12:34:21,963 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 12:34:41,463 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 12:35:31,563 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 12:35:37,609 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 12:35:38,645 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 12:35:39,294 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 12:35:40,794 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 12:35:43,144 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 12:54:46,140 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 12:54:55,372 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 12:55:01,705 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:03:41,225 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:03:53,591 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:04:57,286 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:14:58,632 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:15:05,125 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:15:12,488 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:16:10,379 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:16:14,284 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:16:19,886 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:16:46,404 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:16:50,619 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:20:12,092 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:25:51,445 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:25:56,230 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:26:13,069 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:27:43,865 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:27:51,115 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:28:02,064 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:41:51,807 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:42:02,541 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:42:11,157 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:49:57,256 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:50:13,222 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:50:18,488 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 13:50:25,071 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:53:27,286 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:53:32,330 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:53:33,565 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 13:53:34,631 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 13:53:36,465 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:53:40,164 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 13:53:41,766 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:54:02,643 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 13:54:09,643 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:54:10,848 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 13:54:11,847 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:54:12,712 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:54:13,077 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 13:54:14,198 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 13:54:15,782 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:12:24,285 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:12:39,687 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:12:47,254 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:13:19,219 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:13:22,101 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 14:13:23,353 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:13:24,303 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 14:13:30,659 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 14:13:35,328 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:13:36,321 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 14:13:37,486 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:14:30,123 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:14:34,051 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 14:14:35,387 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:14:36,369 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 14:14:38,204 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:14:43,419 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:14:45,353 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
-2022-02-05 14:14:46,627 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 14:14:48,204 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '1'}
-2022-02-05 14:14:51,704 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:14:53,369 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
-2022-02-05 14:14:54,819 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 14:14:56,990 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '2'}
-2022-02-05 14:14:58,887 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:15:00,521 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
-2022-02-05 14:15:03,636 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 14:15:04,930 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
-2022-02-05 14:15:06,487 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:15:08,618 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
-2022-02-05 14:15:29,377 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:15:44,684 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 14:15:46,869 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:15:49,219 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:15:50,453 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:15:52,473 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
-2022-02-05 14:15:54,668 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
-2022-02-05 14:15:59,002 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:16:02,202 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
-2022-02-05 14:16:05,001 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 14:16:06,312 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '1'}
-2022-02-05 14:16:09,652 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 14:16:10,868 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '1'}
-2022-02-05 14:16:12,668 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:17:06,589 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:17:13,367 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 14:17:13,970 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:17:15,053 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:17:17,168 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
-2022-02-05 14:17:19,672 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
-2022-02-05 14:17:22,202 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:17:27,817 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:17:28,932 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:17:29,899 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:17:31,016 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:17:33,367 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 14:17:35,082 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
-2022-02-05 14:17:36,182 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
-2022-02-05 14:17:38,117 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '6'}
-2022-02-05 14:17:45,852 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:17:47,224 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
-2022-02-05 14:17:48,573 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 14:17:49,853 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '5', 'student_id': '2'}
-2022-02-05 14:17:52,168 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 14:17:53,509 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '2'}
-2022-02-05 14:17:55,285 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:24:10,393 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:24:12,684 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:24:14,377 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 14:24:15,926 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:24:16,793 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 14:24:19,343 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:24:21,910 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 14:24:23,362 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 14:24:25,483 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '2'}
-2022-02-05 14:24:27,812 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
-2022-02-05 14:24:33,169 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': ' mvdf mvdf v'}
-2022-02-05 14:24:35,827 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:24:37,062 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
-2022-02-05 14:24:38,177 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 14:24:40,211 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '1'}
-2022-02-05 14:24:41,163 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 14:24:42,327 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '1'}
-2022-02-05 14:24:44,128 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:24:45,544 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
-2022-02-05 14:24:49,196 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
-2022-02-05 14:24:51,444 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': ''}
-2022-02-05 14:25:00,742 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
-2022-02-05 14:25:05,876 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Кузнецов Сергей'}
-2022-02-05 14:25:08,491 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '4'}
-2022-02-05 14:25:09,803 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
-2022-02-05 14:25:11,776 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '4'}
-2022-02-05 14:25:12,843 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
-2022-02-05 14:25:14,492 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '4'}
-2022-02-05 14:25:16,029 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
-2022-02-05 14:25:17,261 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '4'}
-2022-02-05 14:25:19,593 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 14:25:22,041 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '4'}
-2022-02-05 14:25:27,958 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 14:25:28,810 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 14:25:39,310 DEBUG    kuznetsov main.py /contact/ POST-request: {'your_name': 'Кузнецов Сергей', 'your_email': 'ksn1974@mail.ru', 'your_enquiry': 'Привет!!!', 'contact_submitted': 'submit'}
-2022-02-05 14:54:37,414 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 14:54:53,914 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 15:29:38,660 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 15:31:40,361 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 15:31:46,574 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 15:31:51,959 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 15:31:58,077 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 15:34:55,145 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 15:35:25,837 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 15:35:31,990 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 15:35:54,774 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 15:35:56,640 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
-2022-02-05 15:35:58,014 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 15:35:59,474 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '2'}
-2022-02-05 15:45:21,869 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 15:48:08,858 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 15:48:12,922 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 15:48:17,442 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 15:48:21,057 DEBUG    kuznetsov main.py /contact/ GET-request: {}
-2022-02-05 15:48:23,542 DEBUG    kuznetsov main.py /index/ GET-request: {}
-2022-02-05 15:48:28,739 DEBUG    kuznetsov main.py /about/ GET-request: {}
-2022-02-05 15:48:32,143 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 15:49:40,832 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 15:51:15,656 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 16:11:47,660 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 16:11:56,833 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 16:12:04,229 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:12:08,074 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
-2022-02-05 16:12:15,109 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!'}
-2022-02-05 16:12:18,790 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '3'}
-2022-02-05 16:12:20,310 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
-2022-02-05 16:12:23,476 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 16:12:26,884 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:32:04,493 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 16:32:10,820 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:33:11,998 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 16:33:23,600 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
-2022-02-05 16:33:34,698 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'новый товар!!!'}
-2022-02-05 16:33:38,512 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:33:41,798 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 16:33:44,598 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:33:46,765 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 16:35:23,592 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:35:32,184 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:35:36,762 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:35:39,144 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:35:40,975 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:35:42,409 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:35:43,777 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:35:45,426 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:49:12,583 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 16:49:17,704 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:49:18,919 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:49:21,788 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
-2022-02-05 16:49:34,906 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:49:39,420 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:49:43,477 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:49:46,133 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 16:50:08,069 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:50:23,973 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
-2022-02-05 16:50:52,439 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 16:50:57,740 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:51:00,274 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
-2022-02-05 16:51:06,492 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
-2022-02-05 16:51:12,958 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!'}
-2022-02-05 16:52:35,052 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 16:52:39,435 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:52:49,471 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:52:51,538 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:52:55,875 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:52:57,940 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
-2022-02-05 16:53:02,239 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 16:54:12,836 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 16:54:14,522 DEBUG    kuznetsov main.py /category-create/ GET-request: {}
-2022-02-05 16:55:16,504 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:55:30,037 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:55:32,808 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:56:08,692 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:56:10,636 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:56:11,836 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 16:56:15,820 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 16:56:18,702 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
-2022-02-05 16:57:06,689 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 16:57:39,349 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '4'}
-2022-02-05 16:57:40,605 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '4'}
-2022-02-05 17:00:15,815 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:00:21,102 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:00:29,602 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '4'}
-2022-02-05 17:00:49,664 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект333'}
-2022-02-05 17:05:58,110 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:05:58,150 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:06:03,707 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:06:05,993 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:06:08,709 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 17:06:11,013 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
-2022-02-05 17:08:09,187 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:08:15,910 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:08:17,743 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:08:19,528 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:08:35,574 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!'}
-2022-02-05 17:17:00,589 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:17:10,969 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:17:18,286 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:17:21,086 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:17:23,036 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:17:39,668 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 17:17:54,380 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:18:05,235 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:18:23,868 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': '666'}
-2022-02-05 17:18:45,578 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:18:49,867 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:19:13,684 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:19:18,149 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:21:38,672 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:21:45,378 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:21:51,749 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
-2022-02-05 17:21:55,797 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '1'}
-2022-02-05 17:22:04,346 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 17:22:27,411 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
-2022-02-05 17:22:46,298 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '1'}
-2022-02-05 17:26:02,065 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:26:08,779 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:26:10,243 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:26:13,080 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:26:15,928 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:26:31,261 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!'}
-2022-02-05 17:27:41,226 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:29:09,411 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:29:11,929 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:29:13,977 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:29:15,992 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:29:17,159 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:29:18,877 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
-2022-02-05 17:29:21,343 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:29:23,377 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:29:26,578 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:43:05,856 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:43:08,857 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:43:11,212 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 17:43:13,493 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
-2022-02-05 17:43:16,192 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 17:43:18,994 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '2'}
-2022-02-05 17:43:21,161 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 17:43:22,526 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '2'}
-2022-02-05 17:43:24,812 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:43:27,812 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:43:31,760 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
-2022-02-05 17:43:35,328 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': '666'}
-2022-02-05 17:43:37,739 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
-2022-02-05 17:43:44,227 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': '777'}
-2022-02-05 17:43:46,726 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:44:05,111 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:44:11,392 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 17:44:12,861 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
-2022-02-05 17:44:23,944 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!2'}
-2022-02-05 17:44:38,309 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:44:43,992 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:44:51,462 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:44:56,378 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:44:59,010 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:45:04,462 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!3'}
-2022-02-05 17:45:10,625 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:45:23,176 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:45:26,527 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '5'}
-2022-02-05 17:45:31,593 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:45:34,661 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:45:38,127 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 17:45:40,329 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:45:49,511 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:45:53,894 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '5'}
-2022-02-05 17:45:55,993 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:50:30,062 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 17:50:33,887 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:50:34,873 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:50:36,539 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:50:44,773 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
-2022-02-05 17:50:47,076 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 17:50:49,175 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 17:50:50,503 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 17:50:54,406 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!'}
-2022-02-05 18:01:02,683 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:01:07,570 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:01:13,474 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': 'None'}
-2022-02-05 18:02:36,394 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:02:38,223 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': 'None'}
-2022-02-05 18:03:29,571 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:03:32,384 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:03:38,930 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:03:40,872 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': 'None'}
-2022-02-05 18:04:05,345 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:04:07,053 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:04:08,124 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': 'None'}
-2022-02-05 18:16:44,813 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:16:55,019 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 18:16:57,192 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:16:59,906 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:17:04,294 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 18:17:07,225 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
-2022-02-05 18:17:21,924 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 18:18:05,732 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:18:15,182 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:18:18,692 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
-2022-02-05 18:19:23,099 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:20:14,877 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:20:24,621 DEBUG    kuznetsov main.py / GET-request: {}
-2022-02-05 18:20:26,945 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:20:30,125 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
-2022-02-05 18:20:33,523 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 18:21:00,852 DEBUG    kuznetsov run.py Starting the server on the port 8080...
-2022-02-05 18:21:08,630 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:21:09,004 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:21:09,242 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:21:10,259 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
-2022-02-05 18:21:13,058 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект'}
-2022-02-05 18:21:21,972 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:21:24,541 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
-2022-02-05 18:21:40,789 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект!!!2'}
-2022-02-05 18:21:53,187 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
-2022-02-05 18:22:05,283 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект 333'}
-2022-02-05 18:22:12,455 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:22:17,755 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:22:19,340 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:22:20,773 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 18:22:22,159 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:22:24,407 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
-2022-02-05 18:22:38,289 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 1_1'}
-2022-02-05 18:22:41,237 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '3'}
-2022-02-05 18:22:48,699 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 2_1'}
-2022-02-05 18:22:53,554 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '6'}
-2022-02-05 18:22:55,773 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:23:00,490 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '3'}
-2022-02-05 18:23:03,358 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:23:04,840 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
-2022-02-05 18:23:07,139 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:23:08,940 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:23:14,122 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '5'}
-2022-02-05 18:23:15,605 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '5'}
-2022-02-05 18:23:35,404 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Мой первый проект 333_333'}
-2022-02-05 18:23:43,621 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:23:50,822 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:23:53,272 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '5'}
-2022-02-05 18:23:55,687 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '6'}
-2022-02-05 18:23:58,354 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '6'}
-2022-02-05 18:24:03,829 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс 333333'}
-2022-02-05 18:24:07,455 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:24:12,271 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:24:16,921 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '5'}
-2022-02-05 18:24:22,638 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:24:24,786 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:24:30,054 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '5'}
-2022-02-05 18:24:32,889 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '6'}
-2022-02-05 18:24:35,190 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '8'}
-2022-02-05 18:24:37,437 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:24:39,654 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:24:46,438 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '5'}
-2022-02-05 18:24:49,173 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '5'}
-2022-02-05 18:24:55,620 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': '666'}
-2022-02-05 18:24:58,453 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:25:00,738 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
-2022-02-05 18:25:04,522 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '5'}
-2022-02-05 18:25:09,287 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': '77'}
-2022-02-05 18:25:12,618 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:25:18,420 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
-2022-02-05 18:25:19,889 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 18:25:22,004 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
-2022-02-05 18:25:24,154 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
-2022-02-05 18:25:27,454 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '9', 'student_id': '2'}
-2022-02-05 18:25:29,472 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 18:25:31,306 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
-2022-02-05 18:25:32,472 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 18:25:33,856 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '1'}
-2022-02-05 18:25:35,223 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 18:25:37,237 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '8', 'student_id': '1'}
-2022-02-05 18:25:38,822 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
-2022-02-05 18:25:41,205 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '1'}
-2022-02-05 18:25:43,107 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
-2022-02-05 18:25:44,921 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 09:25:28,418 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 09:26:05,920 DEBUG    kuznetsov main.py / GET-request: {}
+2022-02-10 09:26:06,176 DEBUG    kuznetsov main.py /apple-touch-icon-precomposed.png/ GET-request: {}
+2022-02-10 09:26:06,226 DEBUG    kuznetsov main.py /apple-touch-icon.png/ GET-request: {}
+2022-02-10 09:26:06,305 DEBUG    kuznetsov main.py /favicon.ico/ GET-request: {}
+2022-02-10 09:26:09,311 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 12:47:27,242 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 12:47:44,008 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 12:47:45,122 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 12:47:45,761 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-10 12:47:48,301 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 12:49:10,905 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 12:49:15,278 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 12:49:17,035 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 12:50:18,356 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 12:50:28,503 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:09:43,467 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:09:43,532 DEBUG    kuznetsov main.py / GET-request: {}
+2022-02-10 13:10:03,268 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:11:26,093 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 13:11:33,034 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:12:30,376 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 13:12:39,839 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:16:01,380 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 13:16:12,801 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:54:26,115 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 13:54:32,398 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 13:54:34,150 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 13:54:35,084 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:02:50,984 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:03:00,005 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:03:04,117 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:03:14,317 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:03:51,249 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:03:54,869 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:03:56,468 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:04:05,885 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Bdfyjd'}
+2022-02-10 14:04:10,622 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:19:08,606 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:19:34,849 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:19:36,612 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:19:41,308 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'bjbkljkl'}
+2022-02-10 14:22:11,307 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:22:17,901 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:22:19,747 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:22:28,902 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'nkjnlk'}
+2022-02-10 14:22:33,435 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:22:51,856 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:22:56,556 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:23:05,066 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:23:07,216 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:23:10,381 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'lnlknlk'}
+2022-02-10 14:24:57,130 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:25:05,492 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:25:07,234 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:25:10,273 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': ';lkm;lkm;l'}
+2022-02-10 14:56:14,983 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:56:27,766 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:56:29,844 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:56:34,563 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'bhkjhpbjh'}
+2022-02-10 14:57:02,714 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 14:57:08,895 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 14:57:10,257 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 14:57:12,593 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'fvfvf'}
+2022-02-10 15:00:56,024 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:00:58,646 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:01:05,902 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': ' телздлдл'}
+2022-02-10 15:07:41,580 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 15:07:51,878 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:07:53,553 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:07:57,728 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'тлотдлтдл'}
+2022-02-10 15:10:48,392 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 15:10:55,329 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:10:56,864 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:10:59,372 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'nlrkfnrelgkje'}
+2022-02-10 15:11:43,063 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 15:11:49,631 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:11:51,129 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:11:57,379 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'mlmlmll knlk'}
+2022-02-10 15:12:48,145 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 15:12:53,264 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:12:54,843 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:12:59,061 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'afdmf.lerm/lgfe'}
+2022-02-10 15:30:45,138 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 15:30:55,801 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:30:57,021 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:31:06,416 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'впаек'}
+2022-02-10 15:31:34,799 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:31:36,334 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:31:40,504 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': ' юб ю/бю/б'}
+2022-02-10 15:34:18,274 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': ' юб ю/бю/б'}
+2022-02-10 15:34:20,917 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 15:34:25,248 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 15:34:28,784 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'всвсвц'}
+2022-02-10 17:16:37,029 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:17:19,640 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:17:53,475 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 17:18:37,962 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:18:40,497 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:22:19,959 DEBUG    kuznetsov main.py /student-list/ POST-request: {'name': 'ирлорило'}
+2022-02-10 17:34:51,872 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:34:51,908 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:35:02,618 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 17:36:00,905 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:36:55,445 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 17:37:07,291 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:37:39,227 DEBUG    kuznetsov main.py /student-list/ POST-request: {'name': 'Ivanov'}
+2022-02-10 17:39:10,301 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:39:19,779 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Petrov'}
+2022-02-10 17:52:49,288 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:52:52,791 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:53:16,689 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 17:54:08,118 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:58:14,658 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivan'}
+2022-02-10 17:58:18,140 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:58:26,933 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 17:58:33,410 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:59:07,510 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 17:59:37,174 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 17:59:43,031 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 17:59:48,112 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 17:59:59,444 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 18:02:54,214 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:03:02,477 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:03:13,508 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 18:03:25,631 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 18:03:56,845 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:04:02,958 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:04:07,972 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 18:04:22,890 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 18:05:32,788 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:05:40,107 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:05:44,993 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 18:05:53,455 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'kbkjnk'}
+2022-02-10 18:06:19,425 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 18:06:33,351 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 18:07:59,015 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '4'}
+2022-02-10 18:08:01,020 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
+2022-02-10 18:08:02,461 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '4'}
+2022-02-10 18:08:04,045 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
+2022-02-10 18:08:04,980 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '4'}
+2022-02-10 18:08:07,510 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:08:09,551 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '4'}
+2022-02-10 18:08:11,364 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
+2022-02-10 18:08:13,138 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '3', 'student_id': '4'}
+2022-02-10 18:08:16,546 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:08:23,088 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:08:28,446 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:08:31,409 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:08:33,775 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:08:34,965 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:14:29,969 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:14:35,344 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:14:37,179 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 18:14:40,883 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Ivanov'}
+2022-02-10 18:14:43,690 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-10 18:14:44,762 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-10 18:14:46,074 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '3'}
+2022-02-10 18:14:47,403 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '3'}
+2022-02-10 18:14:48,509 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '3'}
+2022-02-10 18:14:52,530 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:14:54,911 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 18:15:04,452 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'Petrov'}
+2022-02-10 18:15:06,889 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-10 18:15:12,767 DEBUG    kuznetsov main.py / GET-request: {}
+2022-02-10 18:15:17,083 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:15:37,589 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-10 18:18:54,512 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-10 18:18:56,418 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:18:58,731 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '3'}
+2022-02-10 18:19:00,968 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:19:02,994 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 18:19:04,499 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:19:07,605 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 18:19:09,513 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 18:19:25,598 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '4'}
+2022-02-10 18:19:27,657 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '4'}
+2022-02-10 18:19:29,077 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '4'}
+2022-02-10 18:32:42,686 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:32:46,610 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:32:48,701 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
+2022-02-10 18:33:04,074 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'fvdfv'}
+2022-02-10 18:35:30,371 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:35:55,805 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:36:06,792 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:36:21,884 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:36:25,601 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:36:27,617 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:36:32,118 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:37:13,157 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:37:17,406 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:39:05,531 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:39:12,950 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:39:21,926 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:39:25,670 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:39:35,443 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:39:40,728 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:46:37,497 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:46:40,418 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:46:46,111 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:46:59,065 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:47:14,545 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:49:57,506 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 18:50:02,644 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 18:50:39,734 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:51:38,856 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 18:52:11,366 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'RRrRRr'}
+2022-02-10 18:52:27,796 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 18:52:45,466 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:00:31,516 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:00:40,422 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:00:41,925 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:00:53,966 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:00:59,219 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:03:03,786 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 19:03:07,485 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:03:14,387 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:03:21,365 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:04:14,512 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:04:17,472 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:04:20,143 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:04:30,223 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:04:36,359 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:05:14,677 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:05:21,871 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:05:27,394 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:05:39,249 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:05:46,696 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:06:06,482 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Ooooooo'}
+2022-02-10 19:07:01,956 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:07:07,627 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:07:15,726 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:07:21,197 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:08:14,153 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'dgfggvfr'}
+2022-02-10 19:11:00,080 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:11:05,154 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:11:14,080 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:11:20,493 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:11:35,840 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'frthgrthr'}
+2022-02-10 19:11:54,798 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:12:07,772 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:12:18,067 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'regrtgrtg'}
+2022-02-10 19:12:27,606 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:12:31,318 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '4'}
+2022-02-10 19:12:32,281 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '4'}
+2022-02-10 19:12:35,392 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': '333'}
+2022-02-10 19:12:38,258 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:12:39,673 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '4'}
+2022-02-10 19:12:42,887 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:27,988 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:16:31,955 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:33,009 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:34,788 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:35,670 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:16:36,671 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:38,526 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:42,595 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:16:44,866 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:16:46,022 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:16:50,016 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:16:51,059 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:17:00,640 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Уровень 2'}
+2022-02-10 19:17:03,643 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:17:04,849 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
+2022-02-10 19:17:10,566 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Уровень 3'}
+2022-02-10 19:17:44,164 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:17:55,554 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:17:56,508 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:17:57,913 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:17:59,499 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:18:04,332 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Думуд2'}
+2022-02-10 19:18:06,467 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 19:18:10,589 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '2'}
+2022-02-10 19:18:20,608 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level 222'}
+2022-02-10 19:18:24,366 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
+2022-02-10 19:18:30,066 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:18:31,946 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
+2022-02-10 19:22:25,011 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:22:32,149 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:22:34,996 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
+2022-02-10 19:22:39,758 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level 1'}
+2022-02-10 19:22:43,359 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:22:44,764 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
+2022-02-10 19:22:49,632 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level2'}
+2022-02-10 19:22:54,632 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': ''}
+2022-02-10 19:23:04,265 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level 1.1'}
+2022-02-10 19:23:07,931 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:23:09,353 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
+2022-02-10 19:23:14,959 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level 2_2'}
+2022-02-10 19:23:18,045 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:23:19,735 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '6'}
+2022-02-10 19:23:21,215 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '6'}
+2022-02-10 19:23:25,054 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level 3'}
+2022-02-10 19:23:29,564 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:23:30,973 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '6'}
+2022-02-10 19:23:33,885 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '6'}
+2022-02-10 19:23:38,206 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'Level 3_3'}
+2022-02-10 19:23:40,737 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:23:41,974 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '6'}
+2022-02-10 19:23:47,275 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '8'}
+2022-02-10 19:23:48,809 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '8'}
+2022-02-10 19:23:51,098 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'efgbr'}
+2022-02-10 19:23:52,750 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-10 19:23:56,760 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:24:01,483 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:24:02,842 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '6'}
+2022-02-10 19:24:05,599 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:24:07,180 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:24:09,847 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '6'}
+2022-02-10 19:24:13,092 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:24:14,815 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:24:16,106 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '6'}
+2022-02-10 19:24:17,365 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '8'}
+2022-02-10 19:24:19,325 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:24:25,927 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:24:30,715 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '6'}
+2022-02-10 19:24:33,392 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:24:35,967 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 19:24:37,200 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '6'}
+2022-02-10 19:24:40,684 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '8'}
+2022-02-10 19:24:42,874 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:43:33,390 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:43:52,963 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:43:54,745 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 19:43:58,627 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'ferfvrefe'}
+2022-02-10 19:45:33,858 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:45:39,822 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:45:41,518 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 19:45:44,748 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'dfeferf'}
+2022-02-10 19:47:00,518 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:47:14,638 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:47:16,019 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 19:47:18,561 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'BJHbkjblk'}
+2022-02-10 19:47:28,433 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 19:47:36,220 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-10 19:47:38,092 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '2'}
+2022-02-10 19:47:41,617 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': ' nlkn;l'}
+2022-02-10 19:47:47,307 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '2'}
+2022-02-10 19:47:50,255 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': '.m;lkmlkmn'}
+2022-02-10 19:51:31,694 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 19:51:36,705 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 19:51:38,282 DEBUG    kuznetsov main.py /student-create/ GET-request: {}
+2022-02-10 19:51:40,665 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'doffed'}
+2022-02-10 19:51:59,176 DEBUG    kuznetsov main.py /student-create/ POST-request: {'name': 'doffed'}
+2022-02-10 20:35:40,430 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 20:35:47,660 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 20:35:55,396 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:35:58,250 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 20:36:00,552 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:36:03,380 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
+2022-02-10 20:36:38,704 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:36:40,337 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 20:37:47,195 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 20:38:02,607 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:38:04,101 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 20:38:06,223 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:38:07,779 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
+2022-02-10 20:38:19,890 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:38:22,185 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '2', 'student_id': '2'}
+2022-02-10 20:40:43,636 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:40:45,572 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:40:46,847 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:40:47,753 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:40:48,518 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:40:49,312 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:41:02,683 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-10 20:41:05,810 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '2'}
+2022-02-10 20:41:13,343 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'New_Cource'}
+2022-02-10 20:41:18,169 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-10 20:41:26,154 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:41:28,166 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 20:41:29,625 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:41:32,164 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '5', 'student_id': '2'}
+2022-02-10 20:42:01,757 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:42:06,260 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '2'}
+2022-02-10 20:45:58,205 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 20:46:08,538 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:46:11,776 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 20:46:15,339 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:46:21,087 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '2'}
+2022-02-10 20:47:21,285 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:47:22,705 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
+2022-02-10 20:50:36,743 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 20:50:45,874 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 20:50:53,138 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:50:54,847 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 20:50:55,934 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:50:57,305 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '1', 'student_id': '2'}
+2022-02-10 20:51:02,679 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 20:51:04,280 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '2'}
+2022-02-10 20:51:14,582 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 20:51:24,413 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '1'}
+2022-02-10 20:51:38,384 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'Курс о чем-то'}
+2022-02-10 20:51:41,603 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-10 20:51:44,038 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 20:51:46,380 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-10 20:51:47,428 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-10 20:51:49,291 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '5', 'student_id': '1'}
+2022-02-10 20:51:55,767 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-10 20:51:56,952 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '1'}
+2022-02-10 21:01:17,003 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 21:01:49,428 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 21:04:49,212 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 21:06:36,696 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 21:06:41,079 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 21:06:52,211 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
+2022-02-10 21:06:58,331 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '3'}
+2022-02-10 21:07:01,927 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '5'}
+2022-02-10 21:07:04,544 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 21:07:05,788 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '2'}
+2022-02-10 21:07:06,944 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '2'}
+2022-02-10 21:07:08,299 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '6', 'student_id': '2'}
+2022-02-10 21:17:12,934 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 21:17:22,849 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:17:53,246 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:18:08,811 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:18:19,883 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:18:30,229 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:18:42,495 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:18:49,113 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:18:56,098 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:19:10,307 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:19:23,079 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:20:34,594 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:21:15,867 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:22:28,191 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:32:53,361 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 21:33:08,357 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:33:31,748 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:34:00,153 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:34:01,909 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:34:10,447 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:34:14,529 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:34:15,929 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:34:22,767 DEBUG    kuznetsov run.py Starting the server on the port 8080...
+2022-02-10 21:34:25,576 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:34:59,739 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:35:44,911 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:36:26,371 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:36:54,735 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:37:17,576 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:37:19,303 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:37:32,687 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:37:42,893 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:37:57,968 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:38:34,638 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:38:56,353 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:38:58,315 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:39:29,895 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:39:37,653 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:39:40,870 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:41:27,791 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:41:29,713 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:41:43,033 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:42:40,499 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:42:42,350 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:43:22,937 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:43:42,043 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:43:54,503 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:44:16,337 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:44:46,506 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:45:56,832 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:46:46,354 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:47:10,912 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 21:47:25,845 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 21:47:29,098 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 21:47:34,993 DEBUG    kuznetsov main.py /api-courses/ GET-request: {}
+2022-02-10 21:47:46,092 DEBUG    kuznetsov main.py /api-students/ GET-request: {}
+2022-02-10 21:48:04,575 DEBUG    kuznetsov main.py /api-courses/ GET-request: {}
+2022-02-10 21:48:08,085 DEBUG    kuznetsov main.py /api-students/ GET-request: {}
+2022-02-10 21:48:14,003 DEBUG    kuznetsov main.py /api-students/ GET-request: {}
+2022-02-10 21:48:21,552 DEBUG    kuznetsov main.py /api-courses/ GET-request: {}
+2022-02-10 21:48:58,669 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:50:26,202 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:51:53,943 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:52:20,633 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:55:56,749 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:56:15,530 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 21:57:16,411 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:12:19,388 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:13:11,229 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:13:30,867 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:14:16,338 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 22:14:26,878 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '2'}
+2022-02-10 22:14:34,083 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 22:14:39,111 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
+2022-02-10 22:14:42,143 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '1'}
+2022-02-10 22:15:00,384 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': 'лоривылорилвм'}
+2022-02-10 22:15:04,502 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
+2022-02-10 22:15:08,559 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 22:15:15,826 DEBUG    kuznetsov main.py /category-create/ GET-request: {'category_id': '3'}
+2022-02-10 22:15:17,128 DEBUG    kuznetsov main.py /category-create/ POST-request: {'name': ''}
+2022-02-10 22:15:24,344 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '2'}
+2022-02-10 22:15:25,761 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '2'}
+2022-02-10 22:15:31,481 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'атлуатлц'}
+2022-02-10 22:15:33,506 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '4'}
+2022-02-10 22:15:34,877 DEBUG    kuznetsov main.py /course-copy/ GET-request: {'id': '7'}
+2022-02-10 22:15:39,510 DEBUG    kuznetsov main.py /api-courses/ GET-request: {}
+2022-02-10 22:15:43,174 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 22:15:48,859 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '1'}
+2022-02-10 22:15:51,660 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 22:15:54,543 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-10 22:15:55,754 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-10 22:16:01,239 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '4', 'student_id': '1'}
+2022-02-10 22:16:03,681 DEBUG    kuznetsov main.py /course-select/ GET-request: {'id': '1'}
+2022-02-10 22:16:06,301 DEBUG    kuznetsov main.py /course-add-student/ GET-request: {'course_id': '5', 'student_id': '1'}
+2022-02-10 22:16:08,453 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 22:16:10,641 DEBUG    kuznetsov main.py /student-course-list/ GET-request: {'id': '1'}
+2022-02-10 22:16:24,991 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:16:31,092 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 22:16:32,749 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:16:35,683 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 22:16:38,256 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-10 22:16:42,082 DEBUG    kuznetsov main.py /about/ GET-request: {}
+2022-02-10 22:16:43,165 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:16:44,217 DEBUG    kuznetsov main.py /contact/ GET-request: {}
+2022-02-10 22:16:45,151 DEBUG    kuznetsov main.py /api-students/ GET-request: {}
+2022-02-10 22:16:48,807 DEBUG    kuznetsov main.py /student-list/ GET-request: {}
+2022-02-10 22:16:57,318 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:24:00,512 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:24:18,386 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:25:28,925 DEBUG    kuznetsov main.py /index/ GET-request: {}
+2022-02-10 22:25:57,132 DEBUG    kuznetsov main.py /api-courses/ GET-request: {}
+2022-02-10 22:26:00,980 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 22:26:03,640 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
+2022-02-10 22:26:06,410 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 22:26:07,977 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '5'}
+2022-02-10 22:26:11,295 DEBUG    kuznetsov main.py /course-create/ GET-request: {'id': '5'}
+2022-02-10 22:26:13,512 DEBUG    kuznetsov main.py /course-create/ POST-request: {'name': 'dcdsfvf'}
+2022-02-10 22:26:16,832 DEBUG    kuznetsov main.py /category-list/ GET-request: {}
+2022-02-10 22:26:19,966 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '1'}
+2022-02-10 22:26:24,901 DEBUG    kuznetsov main.py /category-list/ GET-request: {'category_id': '3'}
+2022-02-10 22:26:27,434 DEBUG    kuznetsov main.py /course-list/ GET-request: {'id': '5'}
+2022-02-10 22:28:05,656 DEBUG    kuznetsov main.py /index/ GET-request: {}

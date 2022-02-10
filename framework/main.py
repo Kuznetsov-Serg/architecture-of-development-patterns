@@ -20,7 +20,7 @@ class Framework:
     def __init__(self, routes_obj, fronts_obj):
         self.routes_lst = routes_obj
         self.fronts_lst = fronts_obj
-
+        self.previous_path = None
 
     def __call__(self, environ, start_response):
         # the address to which the transition was made

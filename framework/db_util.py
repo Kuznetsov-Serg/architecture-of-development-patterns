@@ -26,7 +26,12 @@ def create_or_open_db(path):
     cursor = connection.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS category (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
-                            name TEXT NOT NULL
+                            name TEXT NOT NULL,
+                            category_id INTEGER NOT NULL,
+                            FOREIGN KEY (category_id)
+                                REFERENCES category (id)
+                                ON UPDATE CASCADE
+                                ON DELETE CASCADE
                             );'''
                    )
     cursor.execute('''CREATE TABLE IF NOT EXISTS course (
@@ -57,8 +62,8 @@ def fill_db(connection):
     cursor = connection.cursor()
 
     if not is_have_records(connection, 'category'):
-        category = [(1, 'Категория интерактивных курсов'), (2, 'WEB-категория')]
-        cursor.executemany("INSERT INTO category VALUES (?, ?)", category)
+        category = [(1, 'Категория интерактивных курсов', 0), (2, 'WEB-категория', 0), (3, 'Категория Python-практика', 1)]
+        cursor.executemany("INSERT INTO category VALUES (?, ?, ?)", category)
 
     if not is_have_records(connection, 'student'):
         student = [(1, 'Иванов Иван Иванович'), (2, 'Сидоров Петр Семенович')]
@@ -71,6 +76,7 @@ def fill_db(connection):
                     (2, 'Программируем на ...', category_records[0]['id']),
                     (3, 'Приложения для ...', category_records[0]['id']),
                     (4, 'WEB для всех', category_records[1]['id']),
+                    (5, 'Python forever!!!', category_records[2]['id']),
         ]
         cursor.executemany("INSERT INTO course VALUES (?, ?, ?)", course)
 
