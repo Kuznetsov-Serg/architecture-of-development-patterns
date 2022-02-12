@@ -1,14 +1,19 @@
 from framework.templator import render
+from framework.db_util import MapperRegistry
 from framework.logger import Logger
 from patterns.сreational_patterns import Engine
 from patterns.structural_patterns import AppRoute, Debug
 from patterns.behavioral_patterns import *
 
 
-site = Engine()
+
+path_DB = 'database/my_database.db'
+site = Engine(path_DB)
 logger = Logger('views', is_debug_console=True)
 email_notifier = EmailNotifier()
 sms_notifier = SmsNotifier()
+mapper_registry = MapperRegistry(path_DB)
+
 
 
 # @AppRoute(routes=routes, url='/')
@@ -69,8 +74,9 @@ class StudentCourseList:
         try:
             student = site.find_students_by_id(
                 int(request['request_params']['id']))
+            objects_list = [site.find_course_by_id(id) for id in student.courses]
             return '200 OK', render('student-course-list.html',
-                                    objects_list=student.courses,
+                                    objects_list=objects_list,
                                     name=student.name, id=student.id)
         except KeyError:
             msg = '200 OK', 'No courses have been added yet'
@@ -87,7 +93,7 @@ class CourseListForSelect:
         try:
             student = site.find_students_by_id(
                 int(request['request_params']['id']))
-            objects_list = [el for el in site.courses if el not in student.courses]
+            objects_list = [el for el in site.courses if el.id not in student.courses]
             return '200 OK', render('course-list-for-choice.html',
                                     objects_list=objects_list,
                                     name=student.name, id=student.id)
@@ -203,12 +209,19 @@ class CategoryCreate(CreateView):
 @AppRoute('/student-list/')
 class StudentList(ListView):
     """ Controller - list of Students """
-    queryset = site.students
+
     template_name = 'student-list.html'
+    # queryset = site.students
+    # model_name = 'Student'
 
     def __call__(self, request):
         logger.debug(f'Started {self.__doc__} with request={request}')
         return super().__call__(request)
+
+    def get_queryset(self):
+        site.students = site.refresh('Student')
+        self.queryset = site.students
+        return super().get_queryset()
 
 
 # @AppRoute('/student-create/')
@@ -217,12 +230,10 @@ class StudentCreate(CreateView):
     template_name = 'student-create.html'
     redirect_to = StudentList()
 
-
     def create_obj(self, data: dict):
         name = data['name']
         name = site.decode_value(name)
         student = site.create_user('student', name)
-
         site.students.append(student)
 
     def __call__(self, request):
@@ -272,9 +283,9 @@ class CourseAddStudent:
 
             # student.courses.append(course)
             course.add_student(student)
-
+            objects_list = [site.find_course_by_id(id) for id in student.courses]
             return '200 OK', render('student-course-list.html',
-                                    objects_list=student.courses,
+                                    objects_list=objects_list,
                                     name=student.name,
                                     id=student.id)
 
@@ -296,3 +307,4 @@ class StudentApi:
     @Debug()
     def __call__(self, request):
         return '200 OK', BaseSerializer(site.students).save()
+

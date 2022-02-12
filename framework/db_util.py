@@ -1,6 +1,10 @@
+import sys
 import sqlite3
-from sqlite3 import Error
 from .logger import Logger
+
+# sys.path.append('../')
+# from patterns.сreational_patterns import Student
+
 
 
 
@@ -12,7 +16,7 @@ def create_connection(path):
     try:
         connection = sqlite3.connect(path)
         logger.debug(f'Connection to SQLite DB successful (path={path})')
-    except Error as e:
+    except sqlite3.Error as e:
         logger.error(f"The error '{e}' occurred")
 
     return connection
@@ -27,7 +31,7 @@ def create_or_open_db(path):
     cursor.execute('''CREATE TABLE IF NOT EXISTS category (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
                             name TEXT NOT NULL,
-                            category_id INTEGER NOT NULL,
+                            category_id INTEGER,
                             FOREIGN KEY (category_id)
                                 REFERENCES category (id)
                                 ON UPDATE CASCADE
@@ -47,6 +51,19 @@ def create_or_open_db(path):
     cursor.execute('''CREATE TABLE IF NOT EXISTS student (
                             id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
                             name TEXT NOT NULL
+                            );'''
+                   )
+    cursor.execute('''CREATE TABLE IF NOT EXISTS student_course (
+                            student_id INTEGER,
+                            course_id INTEGER,
+                            FOREIGN KEY (course_id)
+                                REFERENCES course (id)
+                                ON UPDATE CASCADE
+                                ON DELETE CASCADE,
+                            FOREIGN KEY (student_id)
+                                REFERENCES student (id)
+                                ON UPDATE CASCADE
+                                ON DELETE CASCADE
                             );'''
                    )
     connection.commit()
@@ -80,6 +97,11 @@ def fill_db(connection):
         ]
         cursor.executemany("INSERT INTO course VALUES (?, ?, ?)", course)
 
+    if not is_have_records(connection, 'student_course'):
+        category_records = get_records(connection, 'student_course')
+        student_course = [(1, 1), (1, 2), (2, 5)]
+        cursor.executemany("INSERT INTO student_course VALUES (?, ?)", student_course)
+
     connection.commit()
 
 
@@ -109,4 +131,134 @@ def is_have_records(connection, table_name):
     else:
         logger.debug(f'Table {table_name} hasn`t a records')
         return False
+
+
+class UniversalMapper:
+
+    def __init__(self, connection, name):
+        self.connection = connection
+        self.cursor = connection.cursor()
+        self.name = name
+        self.tablename = self.name.lower()
+        self.table_fields = self._get_table_fields()
+        # rrr = self.all()
+        # ttt = self.find_by_id(1)
+        # kkk = self.insert({'name': 'Сидоров'})
+        # ddd = self.update({'id': 1, 'name': 'Petrov333'})
+
+    def all(self):
+        sql = f'SELECT * from {self.tablename}'
+        result = self.cursor.execute(sql)
+        records = result.fetchall()
+        # let's tie the names of the fields to their values
+        result_list = [self._to_dict_with_fields(item) for item in records]
+        return result_list
+
+    def find_by_id(self, id):
+        return self.find_by_field('id', id)
+
+    def find_by_field(self, field_name, field_value):
+        statement = f"SELECT * FROM {self.tablename} WHERE {field_name}=?"
+        self.cursor.execute(statement, (field_value,))
+        result = self.cursor.fetchone()
+        if result:
+            return self._to_dict_with_fields(result)
+        else:
+            raise RecordNotFoundException(f'record with {field_name}={field_value} not found')
+
+    def filter_by_field(self, field_name, field_value):
+        sql = f"SELECT * FROM {self.tablename} WHERE {field_name}=?"
+        result = self.cursor.execute(sql, (field_value,))
+        records = result.fetchall()
+        # let's tie the names of the fields to their values
+        result_list = [self._to_dict_with_fields(item) for item in records]
+        return result_list
+
+    def insert(self, obj):
+        fields_lst = self._get_intersection_fields(obj)
+        fields_lst.discard('id')
+        values_lst = [obj.__dict__[el] for el in fields_lst] if hasattr(obj, '__dict__') else [obj[el] for el in fields_lst]
+        statement = f"INSERT INTO {self.tablename} ({', '.join(fields_lst)}) VALUES ({'?, ' * (len(fields_lst)-1)}?)"
+        self.cursor.execute(statement, values_lst)
+        try:
+            self.connection.commit()
+        except Exception as e:
+            raise DbCommitException(e.args)
+
+    def update(self, obj):
+        fields_lst = self._get_intersection_fields(obj)
+        fields_lst.discard('id')
+        values_lst = [obj[el] for el in fields_lst]
+        assign_str = '=? , '.join(fields_lst) + '=?'
+        statement = f"UPDATE {self.tablename} SET {assign_str} WHERE id=?"
+        id = obj.__dict__['id'] if hasattr(obj, '__dict__') else obj['id']
+        self.cursor.execute(statement, (*values_lst, id))
+        try:
+            self.connection.commit()
+        except Exception as e:
+            raise DbUpdateException(e.args)
+
+    def delete(self, obj):
+        statement = f"DELETE FROM {self.tablename} WHERE id=?"
+        self.cursor.execute(statement, (obj.id,))
+        try:
+            self.connection.commit()
+        except Exception as e:
+            raise DbDeleteException(e.args)
+
+    def _get_table_fields(self):
+        statement = f'pragma table_info({self.tablename})'
+        self.cursor.execute(statement)
+        result = [item[1] for item in self.cursor.fetchall()]
+        return result
+
+    def _to_dict_with_fields(self, record_DB):
+        return {key: val for key, val in zip(self.table_fields, record_DB)}
+
+    # Python program to get the intersection
+    # of two lists using set() and intersection()
+    def _get_intersection_fields(self, obj):
+        obj_field_lst = obj.__dict__ if hasattr(obj, '__dict__') else dict(obj)
+        return set(self.table_fields).intersection(obj_field_lst)
+
+
+
+# архитектурный системный паттерн - Data Mapper
+class MapperRegistry:
+
+    _mappers = {}  # for pattern Singleton
+
+    def __init__(self, path_DB=None):
+        self.path_DB = path_DB if path_DB else 'database/my_database.db'
+        self.connection = create_or_open_db(self.path_DB)
+        self._mappers = {}
+
+    def get_mapper_by_obj(self, obj):
+        name = obj.__name__ if hasattr(obj, '__name__') else obj.__class__.__name__
+        return self.get_mapper_by_name(name)
+
+    def get_mapper_by_name(self, name):
+        if name not in self._mappers:
+            self._mappers[name] = UniversalMapper(self.connection, name)
+        return self._mappers[name]
+
+
+class DbCommitException(Exception):
+    def __init__(self, message):
+        super().__init__(f'Db commit error: {message}')
+
+
+class DbUpdateException(Exception):
+    def __init__(self, message):
+        super().__init__(f'Db update error: {message}')
+
+
+class DbDeleteException(Exception):
+    def __init__(self, message):
+        super().__init__(f'Db delete error: {message}')
+
+
+class RecordNotFoundException(Exception):
+    def __init__(self, message):
+        super().__init__(f'Record not found: {message}')
 

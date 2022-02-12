@@ -3,10 +3,18 @@ from quopri import decodestring
 
 from framework.db_util import *
 from .behavioral_patterns import *
+from .architectural_system_pattern_unit_of_work import DomainObject
+from patterns.architectural_system_pattern_unit_of_work import UnitOfWork
 
 
+
+path_DB = 'database/my_database.db'
+mapper_registry = MapperRegistry(path_DB)
+UnitOfWork.new_current()
+UnitOfWork.get_current().set_mapper_registry(mapper_registry)
 email_notifier = EmailNotifier()
 sms_notifier = SmsNotifier()
+
 
 # абстрактный пользователь
 class User:
@@ -20,21 +28,22 @@ class Teacher(User):
 
 
 # студент
-class Student(User, Subject):
+class Student(User, Subject, DomainObject):
     auto_id = 0
 
     def __init__(self, name, id=None):
         Student.auto_id += 1
         self.id = id if id else Student.auto_id
-        self.courses = []
+        self.courses = [el['course_id'] for el in mapper_registry.get_mapper_by_name('Student_Course').filter_by_field('student_id', self.id)]
+        # self.courses = mapper_registry.get_mapper_by_name('student_course')
         super().__init__(name)
 
     def course_count(self):
         result = len(self.courses)
         return result
 
-    def __getitem__(self, item):
-        return self.courses[item]
+    # def __getitem__(self, item):
+    #     return self.courses[item] if len(self.courses) > item else None
 
 
 class UserFactory:
@@ -46,7 +55,10 @@ class UserFactory:
     # порождающий паттерн Фабричный метод
     @classmethod
     def create(cls, type_, name, id=None):
-        return cls.types[type_](name, id)
+        obj = cls.types[type_](name, id)
+        obj.mark_new()
+        UnitOfWork.get_current().commit()
+        return obj
 
 
 # порождающий паттерн Прототип
@@ -67,14 +79,16 @@ class Course(CoursePrototype, Subject):
         self.name = name
         self.category = category
         self.category.courses.append(self)
-        self.students = []
+        self.students = [el['student_id'] for el in mapper_registry.get_mapper_by_name('Student_Course').filter_by_field('course_id', self.id)]
+        # self.students = mapper_registry.get_mapper_by_name('Student_Course').filter_by_field('course_id', self.id)
 
     def __getitem__(self, item):
         return self.students[item]
 
     def add_student(self, student: Student):
         self.students.append(student)
-        student.courses.append(self)
+        student.courses.append(self.id)
+        mapper_registry.get_mapper_by_name('Student_Course').insert({'student_id': student.id, 'course_id': self.id})
         self.notify()
 
 # интерактивный курс
@@ -130,18 +144,28 @@ class Category:
         return result
 
 
+class Student_Course:
+
+    def __init__(self, student_id, course_id):
+        self.student_id = student_id
+        self.course_id = course_id
+        # self.student = Student(**mapper_registry.get_mapper_by_name('Student').find_by_id(self.student_id))
+        # self.course = Course(**mapper_registry.get_mapper_by_name('Course').find_by_id(self.course_id))
+
+
 # основной интерфейс проекта
 class Engine:
-    def __init__(self):
+    def __init__(self, path_DB=None):
         self.teachers = []
         self.students = []
         self.courses = []
         self.categories = []
+        self.path_DB = path_DB if path_DB else 'database/my_database.db'
 
-        connection = create_or_open_db('database/my_database.db')
-        categories = get_records(connection, 'category')
-        courses = get_records(connection, 'course')
-        students = get_records(connection, 'student')
+        self.connection = create_or_open_db(self.path_DB)
+        categories = get_records(self.connection, 'category')
+        courses = get_records(self.connection, 'course')
+        # students = get_records(self.connection, 'student')
         # connection.close()
         for el in categories:
             category_parents = self.find_category_by_id(int(el['category_id'])) if el['category_id'] else None
@@ -153,9 +177,14 @@ class Engine:
             course = self.create_course('record', el['name'], category, el['id'])
             self.courses.append(course)
 
-        for el in students:
-            student = self.create_user('student', el['name'], el['id'])
-            self.students.append(student)
+        self.students = self.refresh('Student')
+        self.student_course = self.refresh('Student_Course')
+
+
+    def refresh(self, model_name):
+        records = mapper_registry.get_mapper_by_name(model_name.lower()).all()
+        self.__dict__[model_name.lower()] = [globals()[model_name](**el) for el in records]
+        return self.__dict__[model_name.lower()]
 
 
     @staticmethod
@@ -171,6 +200,12 @@ class Engine:
             if item.id == id:
                 return item
         raise Exception(f'Нет категории с id = {id}')
+
+    def find_course_by_id(self, id):
+        for item in self.courses:
+            if item.id == id:
+                return item
+        raise Exception(f'Нет курса с id = {id}')
 
     def find_students_by_id(self, id):
         for item in self.students:
